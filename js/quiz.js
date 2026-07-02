@@ -229,4 +229,3 @@ async function loadQuizzes() {
 }
 
 loadQuizzes();
-
