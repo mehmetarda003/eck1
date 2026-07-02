@@ -1,103 +1,131 @@
-/* Temel Orijinal Tasarım */
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #FFF9C4;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #FFF9C4
+  color: #e7e9ea;
+  min-height: 100vh;
+  padding-top: 3.5rem;
 }
 
-.ana-konteyner {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
+.countdown-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+  background: rgba(15, 20, 25, 0.95);
+  border-bottom: 1px solid #38444d;
 }
 
-.baslik {
-    text-align: center;
-    color: #512da8;
-    font-size: 28px;
-    margin-bottom: 30px;
+.countdown-box {
+  font-size: clamp(0.7rem, 3.2vw, 1rem);
+  font-weight: 600;
+  color: #1d9bf0;
+  text-align: right;
+  line-height: 1.4;
 }
 
-.hosgeldin-karti {
-    background-color: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    margin-bottom: 40px;
-    border-left: 5px solid #512da8;
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
-.hosgeldin-karti h2 {
-    margin-top: 0;
-    color: #512da8;
-    font-size: 20px;
+.container > h1 {
+  font-size: clamp(1.25rem, 5vw, 1.75rem);
+  margin-bottom: 1.5rem;
 }
 
-#countdown-timer {
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-    color: #512da8;
-    margin-bottom: 25px;
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
-/* Test Alanı ve Şıklar */
-#quiz-section h2 {
-    color: #512da8;
-    margin-bottom: 20px;
+@media (min-width: 600px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  background: #192734;
+  border-radius: 12px;
+  padding: 1.25rem;
+  border: 1px solid #38444d;
+}
+
+.card h3 {
+  margin: 0 0 0.75rem;
+  color: #1d9bf0;
+  font-size: 1.1rem;
+}
+
+.card p {
+  margin: 0;
+  line-height: 1.6;
+  color: #cbd5dc;
+}
+
+.quiz-area h2 {
+  font-size: clamp(1.1rem, 4vw, 1.5rem);
+  margin-bottom: 1rem;
 }
 
 .quiz-question {
-    background-color: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    margin-bottom: 25px;
+  background: #192734;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid #38444d;
 }
 
-.quiz-question p {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #2c3e50;
+.quiz-question > p {
+  margin: 0 0 1rem;
+  line-height: 1.5;
 }
 
 .quiz-options button {
-    display: block;
-    width: 100%;
-    text-align: left;
-    background-color: #f8f9fa;
-    border: 1px solid #e0e0e0;
-    padding: 12px 15px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    color: #333;
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.85rem 1rem;
+  min-height: 44px;
+  border: 1px solid #38444d;
+  border-radius: 8px;
+  background: #253341;
+  color: #e7e9ea;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.35;
 }
 
 .quiz-options button:hover:not(:disabled) {
-    background-color: #ede7f6;
-    border-color: #512da8;
-}
-
-.quiz-options button.correct {
-    background-color: #d4edda;
-    border-color: #28a745;
-    color: #155724;
-    font-weight: bold;
-}
-
-.quiz-options button.wrong {
-    background-color: #f8d7da;
-    border-color: #dc3545;
-    color: #721c24;
+  background: #38444d;
 }
 
 .quiz-options button:disabled {
-    cursor: not-allowed;
-    opacity: 0.8;
+  cursor: default;
+  opacity: 0.9;
+}
+
+.quiz-options button.correct {
+  background: #00ba7c;
+  border-color: #00ba7c;
+  color: #fff;
+}
+
+.quiz-options button.wrong {
+  background: #f4212e;
+  border-color: #f4212e;
+  color: #fff;
 }
