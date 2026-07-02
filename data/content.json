@@ -5,706 +5,708 @@
       "body": "Bu ECK — Esra'nın Çalışma Kitabı. Bilgi kartlarını ve testleri buradan çalışabilirsin."
     }
   ],
+  "quizzes": {
   "quizzes": [
-  {
-    "id": 1,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "Paris 2024 Olimpiyatları'nda atıcılık branşında ekipmansız ve tek eli cebinde atış yaparak olimpiyat tarihine geçen ve gümüş madalya kazanan sporcumuz kimdir?[cite: 1]",
-    "secenekler": ["Yusuf Dikeç", "Mete Gazoz", "Taha Akgül", "Alperen Berber"],
-    "cevap": "Yusuf Dikeç"
-  },
-  {
-    "id": 2,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "Axiom Mission 3 göreviyle uzaya giden ve uzayda ilk olarak 'İstikbal göklerdedir' diyen ilk Türk astronot kimdir?[cite: 1]",
-    "secenekler": ["Alper Gezeravcı", "Tuva Cihangir Atasever", "Selçuk Bayraktar", "Haluk Görgün"],
-    "cevap": "Alper Gezeravcı"
-  },
-  {
-    "id": 3,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "Türkiye'nin yörünge altı araştırma uçuşunu gerçekleştiren ikinci astronotu kimdir?[cite: 1]",
-    "secenekler": ["Tuva Cihangir Atasever", "Alper Gezeravcı", "Uğur Şahin", "Aziz Sancar"],
-    "cevap": "Tuva Cihangir Atasever"
-  },
-  {
-    "id": 4,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "Aşağıdakilerden hangisi 2024 yılı Avrupa Kültür Başkentlerinden biri değildir?[cite: 1]",
-    "secenekler": ["Paris (Fransa)", "Bad Ischl (Avusturya)", "Tartu (Estonya)", "Bodø (Norveç)"],
-    "cevap": "Paris (Fransa)"
-  },
-  {
-    "id": 5,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "TÜRKSOY tarafından 2024 yılı Türk Dünyası Kültür Başkenti neresi seçilmiştir?[cite: 1]",
-    "secenekler": ["Anau (Türkmenistan)", "Şuşa (Azerbaycan)", "Bursa (Türkiye)", "Semerkant (Özbekistan)"],
-    "cevap": "Anau (Türkmenistan)"
-  },
-  {
-    "id": 6,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "UNESCO tarafından 2024 yılı Dünya Kitap Başkenti seçilen şehir hangisidir?[cite: 1]",
-    "secenekler": ["Strazburg", "Rio de Janeiro", "Paris", "Londra"],
-    "cevap": "Strazburg"
-  },
-  {
-    "id": 7,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "Milletler Ligi (VNL) ve Avrupa Şampiyonluğu kupalarını üst üste kazanan milli takımımız hangisidir?[cite: 1]",
-    "secenekler": ["Kadın Millî Voleybol Takımı", "Erkek Millî Voleybol Takımı", "Kadın Millî Basketbol Takımı", "Erkek Millî Basketbol Takımı"],
-    "cevap": "Kadın Millî Voleybol Takımı"
-  },
-  {
-    "id": 8,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "2024 Paris Olimpiyatları'nda takım okçuluğunda ülkemize tarihi madalya kazandıran dünya ve olimpiyat şampiyonumuz kimdir?[cite: 1]",
-    "secenekler": ["Mete Gazoz", "Yusuf Dikeç", "Rıza Kayaalp", "Ferhat Arıcan"],
-    "cevap": "Mete Gazoz"
-  },
-  {
-    "id": 9,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "2024 Nobel Edebiyat Ödülü'nü kazanan Güney Koreli yazar kimdir?[cite: 1]",
-    "secenekler": ["Han Kang", "Jon Fosse", "Annie Ernaux", "Abdulrazak Gurnah"],
-    "cevap": "Han Kang"
-  },
-  {
-    "id": 10,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "Nükleer silahsız bir dünya kurma çabaları nedeniyle 2024 Nobel Barış Ödülü'nü hangi kuruluş almıştır?[cite: 1]",
-    "secenekler": ["Nihon Hidankyo", "Uluslararası Kızılhaç", "Sınır Tanımayan Doktorlar", "Dünya Gıda Programı"],
-    "cevap": "Nihon Hidankyo"
-  },
-  {
-    "id": 11,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "Şanghay İşbirliği Örgütü'nün (ŞİÖ) 10. tam üyesi olan ülke hangisidir?[cite: 1]",
-    "secenekler": ["Belarus", "İran", "Türkiye", "Mısır"],
-    "cevap": "Belarus"
-  },
-  {
-    "id": 12,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "2024 yılı itibarıyla Mısır, Etiyopya, İran ve Birleşik Arap Emirlikleri'nin resmen üye olarak katıldığı birlik hangisidir?[cite: 1]",
-    "secenekler": ["BRICS", "NATO", "Avrupa Birliği", "G-20"],
-    "cevap": "BRICS"
-  },
-  {
-    "id": 13,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "NATO'nun 32. ve en son üyesi olan ülke hangisidir?[cite: 1]",
-    "secenekler": ["İsveç", "Finlandiya", "Ukrayna", "Bosna Hersek"],
-    "cevap": "İsveç"
-  },
-  {
-    "id": 14,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "2024 Eurovision Şarkı Yarışması'nı 'The Code' adlı şarkıyla kazanan ülke hangisidir?[cite: 1]",
-    "secenekler": ["İsviçre", "İsveç", "İtalya", "Ukrayna"],
-    "cevap": "İsviçre"
-  },
-  {
-    "id": 15,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "96. Akademi Ödülleri'nde (2024) En İyi Film ödülünü hangi film kazanmıştır?[cite: 1]",
-    "secenekler": ["Oppenheimer", "Barbie", "Poor Things", "Killers of the Flower Moon"],
-    "cevap": "Oppenheimer"
-  },
-  {
-    "id": 16,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "Türkiye'nin yerli otomobil markası TOGG'un açılımı nedir?[cite: 1]",
-    "secenekler": ["Türkiye'nin Otomobili Girişim Grubu", "Türkiye Otomotiv Geliştirme Grubu", "Türk Otomotiv Girişim Grubu", "Türkiye Ortak Girişim Grubu"],
-    "cevap": "Türkiye'nin Otomobili Girişim Grubu"
-  },
-  {
-    "id": 17,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "Cannes Film Festivali'nde 2024 yılında Altın Palmiye ödülünü kazanan film hangisidir?[cite: 1]",
-    "secenekler": ["Anora", "Anatomy of a Fall", "Triangle of Sadness", "Titane"],
-    "cevap": "Anora"
-  },
-  {
-    "id": 18,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "2025 yılı G-20 Dönem Başkanı olacak ülke hangisidir?[cite: 1]",
-    "secenekler": ["Güney Afrika", "Brezilya", "Hindistan", "Türkiye"],
-    "cevap": "Güney Afrika"
-  },
-  {
-    "id": 19,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "COP29 İklim Zirvesi hangi şehirde gerçekleştirilmiştir?[cite: 1]",
-    "secenekler": ["Bakü", "Dubai", "Paris", "Londra"],
-    "cevap": "Bakü"
-  },
-  {
-    "id": 20,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "Avrupa Birliği'nin 2025 yılı ilk yarısındaki dönem başkanı hangi ülke olacaktır?[cite: 1]",
-    "secenekler": ["Polonya", "Macaristan", "Belçika", "Almanya"],
-    "cevap": "Polonya"
-  },
-  {
-    "id": 21,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "Türkiye'nin ürettiği 5. nesil milli muharip uçağımızın adı nedir?[cite: 1]",
-    "secenekler": ["KAAN", "KIZILELMA", "HÜRJET", "ATAK"],
-    "cevap": "KAAN"
-  },
-  {
-    "id": 22,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "Baykar tarafından geliştirilen jet motorlu ilk insansız savaş uçağımızın adı nedir?[cite: 1]",
-    "secenekler": ["KIZILELMA", "AKINCI", "ANKA", "KAAN"],
-    "cevap": "KIZILELMA"
-  },
-  {
-    "id": 23,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "2026 Akdeniz Oyunları hangi kentte düzenlenecektir?[cite: 1]",
-    "secenekler": ["Taranto", "Roma", "Napoli", "Milano"],
-    "cevap": "Taranto"
-  },
-  {
-    "id": 24,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "2026 Kış Olimpiyat Oyunları'na ev sahipliği yapacak şehirler hangileridir?[cite: 1]",
-    "secenekler": ["Milano ve Cortina d'Ampezzo", "Roma ve Napoli", "Venedik ve Floransa", "Torino ve Cenova"],
-    "cevap": "Milano ve Cortina d'Ampezzo"
-  },
-  {
-    "id": 25,
-    "kategori": "Güncel Gelişmeler ve Spor",
-    "soru": "2026 FIFA Dünya Kupası'na ortak ev sahipliği yapacak ülkeler hangileridir?[cite: 1]",
-    "secenekler": ["ABD, Kanada ve Meksika", "Brezilya, Arjantin ve Şili", "Almanya, Fransa ve İtalya", "Japonya, Güney Kore ve Çin"],
-    "cevap": "ABD, Kanada ve Meksika"
-  },
-  {
-    "id": 26,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Genel Sekreterliğini Antonio Guterres'in yaptığı Birleşmiş Milletler'in (BM) merkezi neresidir?[cite: 1]",
-    "secenekler": ["New York", "Cenevre", "Paris", "Londra"],
-    "cevap": "New York"
-  },
-  {
-    "id": 27,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Birleşmiş Milletler Eğitim, Bilim ve Kültür Örgütü (UNESCO) merkezi hangi şehirdedir?[cite: 1]",
-    "secenekler": ["Paris", "New York", "Cenevre", "Roma"],
-    "cevap": "Paris"
-  },
-  {
-    "id": 28,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Birleşmiş Milletler Çocuklara Yardım Fonu (UNICEF) merkezi neresidir?[cite: 1]",
-    "secenekler": ["New York", "Paris", "Londra", "Cenevre"],
-    "cevap": "New York"
-  },
-  {
-    "id": 29,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Dünya Sağlık Örgütü'nün (WHO) merkezi hangi kenttedir?[cite: 1]",
-    "secenekler": ["Cenevre", "New York", "Paris", "Viyana"],
-    "cevap": "Cenevre"
-  },
-  {
-    "id": 30,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Uluslararası Para Fonu (IMF) ve Dünya Bankası'nın merkezi hangi şehirdedir?[cite: 1]",
-    "secenekler": ["Washington D.C.", "New York", "Cenevre", "Londra"],
-    "cevap": "Washington D.C."
-  },
-  {
-    "id": 31,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Türkiye'nin yargı yetkisini kabul ettiği Avrupa İnsan Hakları Mahkemesi (AİHM) hangi kentte bulunur?[cite: 1]",
-    "secenekler": ["Strazburg", "Lahey", "Brüksel", "Cenevre"],
-    "cevap": "Strazburg"
-  },
-  {
-    "id": 32,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Birleşmiş Milletler'in ana yargı organı olan Uluslararası Adalet Divanı nerede bulunmaktadır?[cite: 1]",
-    "secenekler": ["Lahey", "Strazburg", "Brüksel", "Cenevre"],
-    "cevap": "Lahey"
-  },
-  {
-    "id": 33,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "1969 yılında kurulan İslam İşbirliği Teşkilatı'nın (İİT) resmi merkezi neresidir?[cite: 1]",
-    "secenekler": ["Cidde", "Riyad", "Mekke", "Medine"],
-    "cevap": "Cidde"
-  },
-  {
-    "id": 34,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Son katılan tam üyesi Özbekistan olan Türk Devletleri Teşkilatı'nın (TDT) merkezi hangi şehirdedir?[cite: 1]",
-    "secenekler": ["İstanbul", "Ankara", "Bakü", "Taşkent"],
-    "cevap": "İstanbul"
-  },
-  {
-    "id": 35,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Türkiye'nin kurucu üyelerinden olduğu Avrupa Konseyi'nin merkezi nerededir?[cite: 1]",
-    "secenekler": ["Strazburg", "Brüksel", "Lahey", "Cenevre"],
-    "cevap": "Strazburg"
-  },
-  {
-    "id": 36,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Avrupa Birliği'nin (AB) fiili başkenti ve ana organlarının bulunduğu şehir hangisidir?[cite: 1]",
-    "secenekler": ["Brüksel", "Strazburg", "Paris", "Berlin"],
-    "cevap": "Brüksel"
-  },
-  {
-    "id": 37,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Necmettin Erbakan öncülüğünde İstanbul'da kurulan, gelişmekte olan 8 İslam ülkesinin üye olduğu örgüt hangisidir?[cite: 1]",
-    "secenekler": ["D-8", "G-8", "G-20", "KEİ"],
-    "cevap": "D-8"
-  },
-  {
-    "id": 38,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Türkiye'nin öncülüğünde kurulan Karadeniz Ekonomik İşbirliği (KEİ) örgütünün merkezi neresidir?[cite: 1]",
-    "secenekler": ["İstanbul", "Ankara", "Trabzon", "İzmir"],
-    "cevap": "İstanbul"
-  },
-  {
-    "id": 39,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Uluslararası Polis Teşkilatı olan Interpol'ün merkezi hangi kenttedir?[cite: 1]",
-    "secenekler": ["Lyon", "Paris", "Marsilya", "Cenevre"],
-    "cevap": "Lyon"
-  },
-  {
-    "id": 40,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Petrol İhraç Eden Ülkeler Örgütü'nün (OPEC) merkezi hangi kenttedir?[cite: 1]",
-    "secenekler": ["Viyana", "Cidde", "Riyad", "Bağdat"],
-    "cevap": "Viyana"
-  },
-  {
-    "id": 41,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "1936 yılında imzalanan ve Türkiye'ye boğazlar üzerinde tam yetki veren sözleşme hangisidir?[cite: 1]",
-    "secenekler": ["Montrö Boğazlar Sözleşmesi", "Lozan Barış Antlaşması", "Sevr Antlaşması", "Ankara Antlaşması"],
-    "cevap": "Montrö Boğazlar Sözleşmesi"
-  },
-  {
-    "id": 42,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "AB üye ülkeleri arasında sınır kontrollerini kaldıran anlaşma hangisidir?[cite: 1]",
-    "secenekler": ["Schengen Anlaşması", "Maastricht Antlaşması", "Lizbon Antlaşması", "Roma Antlaşması"],
-    "cevap": "Schengen Anlaşması"
-  },
-  {
-    "id": 43,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Küresel ısınma ve sera gazı salınımını azaltmayı hedefleyen en büyük uluslararası çevre anlaşmaları hangileridir?[cite: 1]",
-    "secenekler": ["Kyoto Protokolü ve Paris İklim Anlaşması", "Montreal Protokolü ve Rio Sözleşmesi", "Cenevre Sözleşmesi ve Bern Sözleşmesi", "Viyana Sözleşmesi ve Basel Sözleşmesi"],
-    "cevap": "Kyoto Protokolü ve Paris İklim Anlaşması"
-  },
-  {
-    "id": 44,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Euro para birimini yöneten Avrupa Merkez Bankası'nın (ECB) merkezi nerededir?[cite: 1]",
-    "secenekler": ["Frankfurt", "Berlin", "Münih", "Brüksel"],
-    "cevap": "Frankfurt"
-  },
-  {
-    "id": 45,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Uluslararası Atom Enerjisi Ajansı'nın (IAEA) merkezi hangi kenttedir?[cite: 1]",
-    "secenekler": ["Viyana", "Cenevre", "New York", "Paris"],
-    "cevap": "Viyana"
-  },
-  {
-    "id": 46,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "İşçi hakları ve çalışma hayatını düzenleyen Uluslararası Çalışma Örgütü'nün (ILO) merkezi nerededir?[cite: 1]",
-    "secenekler": ["Cenevre", "New York", "Viyana", "Paris"],
-    "cevap": "Cenevre"
-  },
-  {
-    "id": 47,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Birleşmiş Milletler'e bağlı Gıda ve Tarım Örgütü'nün (FAO) merkezi neresidir?[cite: 1]",
-    "secenekler": ["Roma", "Cenevre", "Paris", "New York"],
-    "cevap": "Roma"
-  },
-  {
-    "id": 48,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Müslüman ülkelerin kalkınma projelerine fon sağlayan İslam Kalkınma Bankası'nın merkezi neresidir?[cite: 1]",
-    "secenekler": ["Cidde", "Riyad", "Dubai", "Doha"],
-    "cevap": "Cidde"
-  },
-  {
-    "id": 49,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "Türkiye'nin 1952'de üye olduğu Kuzey Atlantik Antlaşması Örgütü'nün (NATO) merkezi nerededir?[cite: 1]",
-    "secenekler": ["Brüksel", "Washington", "Londra", "Paris"],
-    "cevap": "Brüksel"
-  },
-  {
-    "id": 50,
-    "kategori": "Uluslararası Kuruluşlar ve Merkezler",
-    "soru": "AB'ye üye olmayan ama Avrupa pazarında yer alan İsviçre ve Norveç gibi ülkelerin kurduğu Avrupa Serbest Ticaret Birliği'nin kısaltması nedir?[cite: 1]",
-    "secenekler": ["EFTA", "NAFTA", "MERCOSUR", "ASEAN"],
-    "cevap": "EFTA"
-  },
-  {
-    "id": 51,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "1985 yılında Türkiye'den UNESCO Dünya Mirası Listesi'ne giren ilk alanlarımız hangileridir?[cite: 1]",
-    "secenekler": ["Divriği Ulu Camii, Göreme Milli Parkı ve İstanbul'un Tarihi Alanları", "Efes, Troya ve Pamukkale", "Hattuşaş, Nemrut ve Safranbolu", "Çatalhöyük, Bergama ve Cumalıkızık"],
-    "cevap": "Divriği Ulu Camii, Göreme Milli Parkı ve İstanbul'un Tarihi Alanları"
-  },
-  {
-    "id": 52,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "2023 yılında UNESCO listesine dahil edilen Türkiye'nin 21. mirası hangisidir?[cite: 1]",
-    "secenekler": ["Anadolu'nun Ortaçağ Dönemi Ahşap Hipostil Camileri", "Gordion Antik Kenti", "Arslantepe Höyüğü", "Göbeklitepe"],
-    "cevap": "Anadolu'nun Ortaçağ Dönemi Ahşap Hipostil Camileri"
-  },
-  {
-    "id": 53,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Şanlıurfa'da yer alan ve 'Tarihin sıfır noktası' olarak kabul edilen dünyanın en eski tapınağı hangisidir?[cite: 1]",
-    "secenekler": ["Göbeklitepe", "Çatalhöyük", "Karahantepe", "Alacahöyük"],
-    "cevap": "Göbeklitepe"
-  },
-  {
-    "id": 54,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Şanlıurfa'da bulunan ve Göbeklitepe'den daha eskiye tarihlendiği düşünülen yeni kazı alanı hangisidir?[cite: 1]",
-    "secenekler": ["Karahantepe", "Göbeklitepe", "Çatalhöyük", "Hattuşaş"],
-    "cevap": "Karahantepe"
-  },
-  {
-    "id": 55,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Türkiye'nin en büyük gölü ve en büyük adası sırasıyla hangileridir?[cite: 1]",
-    "secenekler": ["Van Gölü ve Gökçeada", "Tuz Gölü ve Bozcaada", "Beyşehir Gölü ve Cunda", "Eğirdir Gölü ve Marmara Adası"],
-    "cevap": "Van Gölü ve Gökçeada"
-  },
-  {
-    "id": 56,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "5137 metre yüksekliğe sahip olan Türkiye'nin en yüksek dağı hangisidir?[cite: 1]",
-    "secenekler": ["Ağrı Dağı", "Erciyes Dağı", "Süphan Dağı", "Kaçkar Dağı"],
-    "cevap": "Ağrı Dağı"
-  },
-  {
-    "id": 57,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Sınırlarımız içinde doğup yine sınırlarımız içinde denize dökülen en uzun nehir hangisidir?[cite: 1]",
-    "secenekler": ["Kızılırmak", "Yeşilırmak", "Fırat", "Sakarya"],
-    "cevap": "Kızılırmak"
-  },
-  {
-    "id": 58,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Türkiye'nin ilk sakin şehri (Cittaslow) neresidir?[cite: 1]",
-    "secenekler": ["Seferihisar", "Şavşat", "Halfeti", "Akyaka"],
-    "cevap": "Seferihisar"
-  },
-  {
-    "id": 59,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Muğla sınırları içinde bulunan Türkiye'nin ilk tabiat parkı neresidir?[cite: 1]",
-    "secenekler": ["Ölüdeniz-Kıdrak", "Uzungöl", "Abant", "Yedigöller"],
-    "cevap": "Ölüdeniz-Kıdrak"
-  },
-  {
-    "id": 60,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "1958 yılında ilan edilen Türkiye'nin ilk milli parkı neresidir?[cite: 1]",
-    "secenekler": ["Yozgat Çamlığı Milli Parkı", "Ilgaz Dağı Milli Parkı", "Soğuksu Milli Parkı", "Uludağ Milli Parkı"],
-    "cevap": "Yozgat Çamlığı Milli Parkı"
-  },
-  {
-    "id": 61,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Ankara ve Bolu sınırlarında bulunan ve en son ilan edilen milli parklardan biri hangisidir?[cite: 1]",
-    "secenekler": ["Abant Gölü Milli Parkı", "Sarıkamış Allahuekber Dağları", "Kop Dağı Müdafaası", "Nene Hatun Tarihi Milli Parkı"],
-    "cevap": "Abant Gölü Milli Parkı"
-  },
-  {
-    "id": 62,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "1971 yılında Sağlık Bakanı olarak görev yapan Türkiye'nin ilk kadın bakanı kimdir?[cite: 1]",
-    "secenekler": ["Türkan Akyol", "Tansu Çiller", "Lale Aytaman", "Işılay Saygın"],
-    "cevap": "Türkan Akyol"
-  },
-  {
-    "id": 63,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "1993-1996 yılları arasında görev yapan Türkiye'nin ilk kadın başbakanı kimdir?[cite: 1]",
-    "secenekler": ["Tansu Çiller", "Türkan Akyol", "Lale Aytaman", "Güldal Akşit"],
-    "cevap": "Tansu Çiller"
-  },
-  {
-    "id": 64,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "1991 yılında Muğla Valisi olarak atanan Türkiye'nin ilk kadın valisi kimdir?[cite: 1]",
-    "secenekler": ["Lale Aytaman", "Türkan Akyol", "Tansu Çiller", "Işılay Saygın"],
-    "cevap": "Lale Aytaman"
-  },
-  {
-    "id": 65,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Ahmet Adnan Saygun tarafından bestelenen ilk Türk operası hangisidir?[cite: 1]",
-    "secenekler": ["Özsoy Operası", "Kerem", "Köroğlu", "Gilgameş"],
-    "cevap": "Özsoy Operası"
-  },
-  {
-    "id": 66,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Cumhuriyetimizin 100. yılına ithafen yapılan, dünyanın en uzun orta açıklıklı asma köprüsü hangisidir?[cite: 1]",
-    "secenekler": ["1915 Çanakkale Köprüsü", "Osmangazi Köprüsü", "Yavuz Sultan Selim Köprüsü", "Fatih Sultan Mehmet Köprüsü"],
-    "cevap": "1915 Çanakkale Köprüsü"
-  },
-  {
-    "id": 67,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Karadeniz'i Erzurum'a bağlayan ve Türkiye'nin en uzun tünellerinden olan tüneller hangileridir?[cite: 1]",
-    "secenekler": ["Ovit Dağı ve Zigana Tüneli", "Ilgaz 15 Temmuz İstiklal Tüneli", "Avrasya Tüneli", "Bolu Dağı Tüneli"],
-    "cevap": "Ovit Dağı ve Zigana Tüneli"
-  },
-  {
-    "id": 68,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Gövde hacmi bakımından Türkiye'nin en büyüğü olan ve Fırat Nehri üzerinde bulunan baraj hangisidir?[cite: 1]",
-    "secenekler": ["Atatürk Barajı", "Keban Barajı", "Karakaya Barajı", "Ilısu Barajı"],
-    "cevap": "Atatürk Barajı"
-  },
-  {
-    "id": 69,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Artvin'de Çoruh Nehri üzerinde inşa edilen ve kendi sınıfında Türkiye'nin en yüksek barajı olan yapı hangisidir?[cite: 1]",
-    "secenekler": ["Yusufeli Barajı", "Deriner Barajı", "Ermenek Barajı", "Oymapınar Barajı"],
-    "cevap": "Yusufeli Barajı"
-  },
-  {
-    "id": 70,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Osmanlı döneminde Anadolu'da açılan ilk Türk demiryolu hattı hangisidir?[cite: 1]",
-    "secenekler": ["İzmir-Aydın", "İstanbul-Edirne", "Ankara-Eskişehir", "Adana-Mersin"],
-    "cevap": "İzmir-Aydın"
-  },
-  {
-    "id": 71,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Türkiye'de temiz deniz ve plaj simgesi olan Mavi Bayrak ödülüne en çok sahip şehir neresidir?[cite: 1]",
-    "secenekler": ["Antalya", "Muğla", "İzmir", "Aydın"],
-    "cevap": "Antalya"
-  },
-  {
-    "id": 72,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Çanakkale'ye bağlı olan ve Cittaslow unvanı alan Türkiye'nin ilk sakin adası neresidir?[cite: 1]",
-    "secenekler": ["Gökçeada", "Bozcaada", "Cunda", "Marmara Adası"],
-    "cevap": "Gökçeada"
-  },
-  {
-    "id": 73,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Kars'ın Ani harabelerinde Selçuklular tarafından inşa edilen Anadolu'nun ilk camisi hangisidir?[cite: 1]",
-    "secenekler": ["Ebu'l Manuçehr Camii", "Divriği Ulu Camii", "Alaaddin Camii", "İsa Bey Camii"],
-    "cevap": "Ebu'l Manuçehr Camii"
-  },
-  {
-    "id": 74,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Türkiye'nin doğalgaz arama çalışmalarını yürüten ilk yerli sondaj gemisi hangisidir?[cite: 1]",
-    "secenekler": ["Fatih", "Yavuz", "Kanuni", "Abdülhamid Han"],
-    "cevap": "Fatih"
-  },
-  {
-    "id": 75,
-    "kategori": "Türkiye'nin İlkleri ve Coğrafya",
-    "soru": "Kocaeli'de bulunan Avrupa'nın en büyük doğal yaşam parkının adı nedir?[cite: 1]",
-    "secenekler": ["Ormanya Doğal Yaşam Parkı", "Atatürk Orman Çiftliği", "Gülhane Parkı", "Emirgan Korusu"],
-    "cevap": "Ormanya Doğal Yaşam Parkı"
-  },
-  {
-    "id": 76,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "İstiklal Marşı'nın ilk bestecisi ve günümüzde okunan son halinin bestecisi sırasıyla kimlerdir?[cite: 1]",
-    "secenekler": ["Ali Rıfat Çağatay ve Zeki Üngör", "Osman Zeki Üngör ve Mehmet Akif Ersoy", "İsmail Hakkı Bey ve Edgar Manas", "Cemal Reşit Rey ve Adnan Saygun"],
-    "cevap": "Ali Rıfat Çağatay ve Zeki Üngör"
-  },
-  {
-    "id": 77,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "İstiklal Marşı'nın ilk kez yayımlandığı gazete ve dergi hangileridir?[cite: 1]",
-    "secenekler": ["Açıksöz ve Sebilürreşad", "Tercüman-ı Ahval ve Tasvir-i Efkar", "Ceride-i Havadis ve Varlık", "Hakimiyet-i Milliye ve Dergah"],
-    "cevap": "Açıksöz ve Sebilürreşad"
-  },
-  {
-    "id": 78,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Mehmet Akif Ersoy, İstiklal Marşı'ndan kazandığı ödülü hangi kuruma bağışlamıştır?[cite: 1]",
-    "secenekler": ["Darülmesai", "Darülaceze", "Darüşşafaka", "Kızılay"],
-    "cevap": "Darülmesai"
-  },
-  {
-    "id": 79,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Milli Mücadele dönemini anlatan 'Sinekli Bakkal' ve 'Ateşten Gömlek' eserlerinin yazarı kimdir?[cite: 1]",
-    "secenekler": ["Halide Edib Adıvar", "Reşat Nuri Güntekin", "Yakup Kadri Karaosmanoğlu", "Refik Halit Karay"],
-    "cevap": "Halide Edib Adıvar"
-  },
-  {
-    "id": 80,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Tarihi ve toplumsal gerçekçi romanlarıyla tanınan, 'Devlet Ana' ve 'Yorgun Savaşçı'nın yazarı kimdir?[cite: 1]",
-    "secenekler": ["Kemal Tahir", "Yaşar Kemal", "Orhan Kemal", "Tarık Buğra"],
-    "cevap": "Kemal Tahir"
-  },
-  {
-    "id": 81,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "'İnce Memed' serisiyle tanınan ve Nobel'e aday gösterilen ilk yazarımız kimdir?[cite: 1]",
-    "secenekler": ["Yaşar Kemal", "Kemal Tahir", "Orhan Kemal", "Sabahattin Ali"],
-    "cevap": "Yaşar Kemal"
-  },
-  {
-    "id": 82,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Türk edebiyatında postmodern tarzın ilk başyapıtı sayılan 'Tutunamayanlar' eserin yazarı kimdir?[cite: 1]",
-    "secenekler": ["Oğuz Atay", "Yusuf Atılgan", "Orhan Pamuk", "İhsan Oktay Anar"],
-    "cevap": "Oğuz Atay"
-  },
-  {
-    "id": 83,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Türk edebiyatına batılı anlamda ilk realist romanları kazandıran 'Mai ve Siyah' ile 'Aşk-ı Memnu'nun yazarı kimdir?[cite: 1]",
-    "secenekler": ["Halid Ziya Uşaklıgil", "Mehmet Rauf", "Namık Kemal", "Recaizade Mahmud Ekrem"],
-    "cevap": "Halid Ziya Uşaklıgil"
-  },
-  {
-    "id": 84,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Türk edebiyatında 'Şair-i Azam' (Büyük Şair) unvanıyla bilinen Tanzimat dönemi sanatçısı kimdir?[cite: 1]",
-    "secenekler": ["Abdülhak Hamit Tarhan", "Tevfik Fikret", "Cenap Şahabettin", "Namık Kemal"],
-    "cevap": "Abdülhak Hamit Tarhan"
-  },
-  {
-    "id": 85,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "İstanbul'un üç farklı dönemini anlatan 'Üç İstanbul' romanının yazarı kimdir?[cite: 1]",
-    "secenekler": ["Mithat Cemal Kuntay", "Ahmet Hamdi Tanpınar", "Peyami Safa", "Yakup Kadri Karaosmanoğlu"],
-    "cevap": "Mithat Cemal Kuntay"
-  },
-  {
-    "id": 86,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "İdealist öğretmen Feride'nin maceralarını anlatan 'Çalıkuşu' romanının yazarı kimdir?[cite: 1]",
-    "secenekler": ["Reşat Nuri Güntekin", "Halide Edib Adıvar", "Yakup Kadri Karaosmanoğlu", "Ömer Seyfettin"],
-    "cevap": "Reşat Nuri Güntekin"
-  },
-  {
-    "id": 87,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "'Bayrak' şiiriyle hafızalara kazınan ve 'Bayrak Şairi' olarak anılan şairimiz kimdir?[cite: 1]",
-    "secenekler": ["Arif Nihat Asya", "Mehmet Akif Ersoy", "Yahya Kemal Beyatlı", "Necip Fazıl Kısakürek"],
-    "cevap": "Arif Nihat Asya"
-  },
-  {
-    "id": 88,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Türk edebiyatında toplumcu gerçekçi akımın üç büyük temsilcisi olan 'Üç Kemaller' kimlerdir?[cite: 1]",
-    "secenekler": ["Yaşar Kemal, Kemal Tahir ve Orhan Kemal", "Namık Kemal, Yahya Kemal, Kemalettin Tuğcu", "Mustafa Kemal, Namık Kemal, Kemal Tahir", "Orhan Kemal, Orhan Veli, Orhan Pamuk"],
-    "cevap": "Yaşar Kemal, Kemal Tahir ve Orhan Kemal"
-  },
-  {
-    "id": 89,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Osmanlı Devleti'nde Lale Devri'nde ilk özel Türk matbaasını kuran kişiler kimlerdir?[cite: 1]",
-    "secenekler": ["İbrahim Müteferrika ve Said Efendi", "Agah Efendi ve Şinasi", "Namık Kemal ve Ziya Paşa", "Ahmet Mithat Efendi ve Muallim Naci"],
-    "cevap": "İbrahim Müteferrika ve Said Efendi"
-  },
-  {
-    "id": 90,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "1831 yılında İkinci Mahmud döneminde çıkarılmaya başlanan ilk resmi Osmanlı gazetesi hangisidir?[cite: 1]",
-    "secenekler": ["Takvim-i Vekayi", "Ceride-i Havadis", "Tercüman-ı Ahval", "Tasvir-i Efkar"],
-    "cevap": "Takvim-i Vekayi"
-  },
-  {
-    "id": 91,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "İlk yarı resmi gazete ve ilk tamamen özel gazete sırasıyla hangileridir?[cite: 1]",
-    "secenekler": ["Ceride-i Havadis ve Tercüman-ı Ahval", "Takvim-i Vekayi ve Tasvir-i Efkar", "Tercüman-ı Hakikat ve İkdam", "Hürriyet ve Milliyet"],
-    "cevap": "Ceride-i Havadis ve Tercüman-ı Ahval"
-  },
-  {
-    "id": 92,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Türk resim sanatının ünlü eseri 'Kaplumbağa Terbiyecisi' tablosunun ressamı kimdir?[cite: 1]",
-    "secenekler": ["Osman Hamdi Bey", "Şeker Ahmet Paşa", "İbrahim Çallı", "Fikret Mualla"],
-    "cevap": "Osman Hamdi Bey"
-  },
-  {
-    "id": 93,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Dünyaca ünlü 'Düşünen Adam' heykelinin tasarımcısı olan Fransız sanatçı kimdir?[cite: 1]",
-    "secenekler": ["Auguste Rodin", "Michelangelo", "Leonardo da Vinci", "Donatello"],
-    "cevap": "Auguste Rodin"
-  },
-  {
-    "id": 94,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Mimar Sinan'ın çıraklık, kalfalık ve ustalık eserleri sırasıyla hangileridir?[cite: 1]",
-    "secenekler": ["Şehzade, Süleymaniye ve Selimiye", "Süleymaniye, Selimiye ve Sultanahmet", "Selimiye, Şehzade ve Fatih", "Sultanahmet, Süleymaniye ve Ayasofya"],
-    "cevap": "Şehzade, Süleymaniye ve Selimiye"
-  },
-  {
-    "id": 95,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Araplara Türkçe öğretmek amacıyla yazılan ilk Türk dünyası sözlüğü 'Divanu Lugati't-Türk'ün yazarı kimdir?[cite: 1]",
-    "secenekler": ["Kaşgarlı Mahmud", "Yusuf Has Hacib", "Edip Ahmet Yükneki", "Ahmet Yesevi"],
-    "cevap": "Kaşgarlı Mahmud"
-  },
-  {
-    "id": 96,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Türk-İslam tarihinin ilk siyasetnamesi sayılan 'Kutadgu Bilig'in yazarı kimdir?[cite: 1]",
-    "secenekler": ["Yusuf Has Hacib", "Kaşgarlı Mahmud", "Edip Ahmet Yükneki", "Ahmet Yesevi"],
-    "cevap": "Yusuf Has Hacib"
-  },
-  {
-    "id": 97,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Artuklular döneminde yaşamış, sibernetik ve robotik bilimin kurucusu sayılan İslam bilgini kimdir?[cite: 1]",
-    "secenekler": ["El-Cezeri", "İbn-i Sina", "Farabi", "Biruni"],
-    "cevap": "El-Cezeri"
-  },
-  {
-    "id": 98,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "İskenderiye'de yazdığı 'Elementler' eseriyle matematik tarihine yön veren ve 'Geometrinin Babası' sayılan isim kimdir?[cite: 1]",
-    "secenekler": ["Öklid", "Pisagor", "Arşimet", "Thales"],
-    "cevap": "Öklid"
-  },
-  {
-    "id": 99,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Avrupa'da 'Avicenna' adıyla bilinen ve 'Tıbbın Kanunu' eserinin yazarı büyük hekim kimdir?[cite: 1]",
-    "secenekler": ["İbn-i Sina", "Farabi", "Gazali", "İbn-i Rüşd"],
-    "cevap": "İbn-i Sina"
-  },
-  {
-    "id": 100,
-    "kategori": "Edebiyat, Sanat ve Tarih",
-    "soru": "Gök cisimlerinin hareketleri üzerine çalışmalar yapan ve Batı dünyasında 'Alfraganus' adıyla anılan Türk-İslam astronomu kimdir?[cite: 1]",
-    "secenekler": ["Fergani", "Ali Kuşçu", "Uluğ Bey", "Biruni"],
-    "cevap": "Fergani"
-  }
-]
+    {
+      "id": 1,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "Paris 2024 Olimpiyatları'nda atıcılık branşında ekipmansız ve tek eli cebinde atış yaparak olimpiyat tarihine geçen ve gümüş madalya kazanan sporcumuz kimdir?",
+      "secenekler": ["Yusuf Dikeç", "Mete Gazoz", "Taha Akgül", "Alperen Berber", "Rıza Kayaalp"],
+      "cevap": "Yusuf Dikeç"
+    },
+    {
+      "id": 2,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "Axiom Mission 3 göreviyle uzaya giden ve uzayda ilk olarak 'İstikbal göklerdedir' diyen ilk Türk astronot kimdir?",
+      "secenekler": ["Alper Gezeravcı", "Tuva Cihangir Atasever", "Selçuk Bayraktar", "Haluk Görgün", "Uğur Şahin"],
+      "cevap": "Alper Gezeravcı"
+    },
+    {
+      "id": 3,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "Türkiye'nin yörünge altı araştırma uçuşunu gerçekleştiren ikinci astronotu kimdir?",
+      "secenekler": ["Tuva Cihangir Atasever", "Alper Gezeravcı", "Uğur Şahin", "Aziz Sancar", "Canan Dağdeviren"],
+      "cevap": "Tuva Cihangir Atasever"
+    },
+    {
+      "id": 4,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "Aşağıdakilerden hangisi 2024 yılı Avrupa Kültür Başkentlerinden biri değildir?",
+      "secenekler": ["Paris (Fransa)", "Bad Ischl (Avusturya)", "Tartu (Estonya)", "Bodø (Norveç)", "Venedik (İtalya)"],
+      "cevap": "Paris (Fransa)"
+    },
+    {
+      "id": 5,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "TÜRKSOY tarafından 2024 yılı Türk Dünyası Kültür Başkenti neresi seçilmiştir?",
+      "secenekler": ["Anau (Türkmenistan)", "Şuşa (Azerbaycan)", "Bursa (Türkiye)", "Semerkant (Özbekistan)", "Kazan (Rusya)"],
+      "cevap": "Anau (Türkmenistan)"
+    },
+    {
+      "id": 6,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "UNESCO tarafından 2024 yılı Dünya Kitap Başkenti seçilen şehir hangisidir?",
+      "secenekler": ["Strazburg", "Rio de Janeiro", "Paris", "Londra", "Madrid"],
+      "cevap": "Strazburg"
+    },
+    {
+      "id": 7,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "Milletler Ligi (VNL) ve Avrupa Şampiyonluğu kupalarını üst üste kazanan milli takımımız hangisidir?",
+      "secenekler": ["Kadın Millî Voleybol Takımı", "Erkek Millî Voleybol Takımı", "Kadın Millî Basketbol Takımı", "Erkek Millî Basketbol Takımı", "Kadın Millî Hentbol Takımı"],
+      "cevap": "Kadın Millî Voleybol Takımı"
+    },
+    {
+      "id": 8,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "2024 Paris Olimpiyatları'nda takım okçuluğunda ülkemize tarihi madalya kazandıran dünya ve olimpiyat şampiyonumuz kimdir?",
+      "secenekler": ["Mete Gazoz", "Yusuf Dikeç", "Rıza Kayaalp", "Ferhat Arıcan", "Taha Akgül"],
+      "cevap": "Mete Gazoz"
+    },
+    {
+      "id": 9,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "2024 Nobel Edebiyat Ödülü'nü kazanan Güney Koreli yazar kimdir?",
+      "secenekler": ["Han Kang", "Jon Fosse", "Annie Ernaux", "Abdulrazak Gurnah", "Haruki Murakami"],
+      "cevap": "Han Kang"
+    },
+    {
+      "id": 10,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "Nükleer silahsız bir dünya kurma çabaları nedeniyle 2024 Nobel Barış Ödülü'nü hangi kuruluş almıştır?",
+      "secenekler": ["Nihon Hidankyo", "Uluslararası Kızılhaç", "Sınır Tanımayan Doktorlar", "Dünya Gıda Programı", "Uluslararası Af Örgütü"],
+      "cevap": "Nihon Hidankyo"
+    },
+    {
+      "id": 11,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "Şanghay İşbirliği Örgütü'nün (ŞİÖ) 10. tam üyesi olan ülke hangisidir?",
+      "secenekler": ["Belarus", "İran", "Türkiye", "Mısır", "Suudi Arabistan"],
+      "cevap": "Belarus"
+    },
+    {
+      "id": 12,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "2024 yılı itibarıyla Mısır, Etiyopya, İran ve Birleşik Arap Emirlikleri'nin resmen üye olarak katıldığı birlik hangisidir?",
+      "secenekler": ["BRICS", "NATO", "Avrupa Birliği", "G-20", "ŞİÖ"],
+      "cevap": "BRICS"
+    },
+    {
+      "id": 13,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "NATO'nun 32. ve en son üyesi olan ülke hangisidir?",
+      "secenekler": ["İsveç", "Finlandiya", "Ukrayna", "Bosna Hersek", "Gürcistan"],
+      "cevap": "İsveç"
+    },
+    {
+      "id": 14,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "2024 Eurovision Şarkı Yarışması'nı 'The Code' adlı şarkıyla kazanan ülke hangisidir?",
+      "secenekler": ["İsviçre", "İsveç", "İtalya", "Ukrayna", "Fransa"],
+      "cevap": "İsviçre"
+    },
+    {
+      "id": 15,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "96. Akademi Ödülleri'nde (2024) En İyi Film ödülünü hangi film kazanmıştır?",
+      "secenekler": ["Oppenheimer", "Barbie", "Poor Things", "Killers of the Flower Moon", "Dune"],
+      "cevap": "Oppenheimer"
+    },
+    {
+      "id": 16,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "Türkiye'nin yerli otomobil markası TOGG'un açılımı nedir?",
+      "secenekler": ["Türkiye'nin Otomobili Girişim Grubu", "Türkiye Otomotiv Geliştirme Grubu", "Türk Otomotiv Girişim Grubu", "Türkiye Ortak Girişim Grubu", "Türkiye Otomotiv ve Girişim Grubu"],
+      "cevap": "Türkiye'nin Otomobili Girişim Grubu"
+    },
+    {
+      "id": 17,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "Cannes Film Festivali'nde 2024 yılında Altın Palmiye ödülünü kazanan film hangisidir?",
+      "secenekler": ["Anora", "Anatomy of a Fall", "Triangle of Sadness", "Titane", "Parasite"],
+      "cevap": "Anora"
+    },
+    {
+      "id": 18,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "2025 yılı G-20 Dönem Başkanı olacak ülke hangisidir?",
+      "secenekler": ["Güney Afrika", "Brezilya", "Hindistan", "Türkiye", "Endonezya"],
+      "cevap": "Güney Afrika"
+    },
+    {
+      "id": 19,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "COP29 İklim Zirvesi hangi şehirde gerçekleştirilmiştir?",
+      "secenekler": ["Bakü", "Dubai", "Paris", "Londra", "Glasgow"],
+      "cevap": "Bakü"
+    },
+    {
+      "id": 20,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "Avrupa Birliği'nin 2025 yılı ilk yarısındaki dönem başkanı hangi ülke olacaktır?",
+      "secenekler": ["Polonya", "Macaristan", "Belçika", "Almanya", "İspanya"],
+      "cevap": "Polonya"
+    },
+    {
+      "id": 21,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "Türkiye'nin ürettiği 5. nesil milli muharip uçağımızın adı nedir?",
+      "secenekler": ["KAAN", "KIZILELMA", "HÜRJET", "ATAK", "GÖKBEY"],
+      "cevap": "KAAN"
+    },
+    {
+      "id": 22,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "Baykar tarafından geliştirilen jet motorlu ilk insansız savaş uçağımızın adı nedir?",
+      "secenekler": ["KIZILELMA", "AKINCI", "ANKA", "KAAN", "BAYRAKTAR TB3"],
+      "cevap": "KIZILELMA"
+    },
+    {
+      "id": 23,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "2026 Akdeniz Oyunları hangi kentte düzenlenecektir?",
+      "secenekler": ["Taranto", "Roma", "Napoli", "Milano", "Torino"],
+      "cevap": "Taranto"
+    },
+    {
+      "id": 24,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "2026 Kış Olimpiyat Oyunları'na ev sahipliği yapacak şehirler hangileridir?",
+      "secenekler": ["Milano ve Cortina d'Ampezzo", "Roma ve Napoli", "Venedik ve Floransa", "Torino ve Cenova", "Pekin ve Şanghay"],
+      "cevap": "Milano ve Cortina d'Ampezzo"
+    },
+    {
+      "id": 25,
+      "kategori": "Güncel Gelişmeler ve Spor",
+      "soru": "2026 FIFA Dünya Kupası'na ortak ev sahipliği yapacak ülkeler hangileridir?",
+      "secenekler": ["ABD, Kanada ve Meksika", "Brezilya, Arjantin ve Şili", "Almanya, Fransa ve İtalya", "Japonya, Güney Kore ve Çin", "İngiltere, İskoçya ve Galler"],
+      "cevap": "ABD, Kanada ve Meksika"
+    },
+    {
+      "id": 26,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Genel Sekreterliğini Antonio Guterres'in yaptığı Birleşmiş Milletler'in (BM) merkezi neresidir?",
+      "secenekler": ["New York", "Cenevre", "Paris", "Londra", "Viyana"],
+      "cevap": "New York"
+    },
+    {
+      "id": 27,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Birleşmiş Milletler Eğitim, Bilim ve Kültür Örgütü (UNESCO) merkezi hangi şehirdedir?",
+      "secenekler": ["Paris", "New York", "Cenevre", "Roma", "Brüksel"],
+      "cevap": "Paris"
+    },
+    {
+      "id": 28,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Birleşmiş Milletler Çocuklara Yardım Fonu (UNICEF) merkezi neresidir?",
+      "secenekler": ["New York", "Paris", "Londra", "Cenevre", "Washington"],
+      "cevap": "New York"
+    },
+    {
+      "id": 29,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Dünya Sağlık Örgütü'nün (WHO) merkezi hangi kenttedir?",
+      "secenekler": ["Cenevre", "New York", "Paris", "Viyana", "Roma"],
+      "cevap": "Cenevre"
+    },
+    {
+      "id": 30,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Uluslararası Para Fonu (IMF) ve Dünya Bankası'nın merkezi hangi şehirdedir?",
+      "secenekler": ["Washington D.C.", "New York", "Cenevre", "Londra", "Frankfurt"],
+      "cevap": "Washington D.C."
+    },
+    {
+      "id": 31,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Türkiye'nin yargı yetkisini kabul ettiği Avrupa İnsan Hakları Mahkemesi (AİHM) hangi kentte bulunur?",
+      "secenekler": ["Strazburg", "Lahey", "Brüksel", "Cenevre", "Lüksemburg"],
+      "cevap": "Strazburg"
+    },
+    {
+      "id": 32,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Birleşmiş Milletler'in ana yargı organı olan Uluslararası Adalet Divanı nerede bulunmaktadır?",
+      "secenekler": ["Lahey", "Strazburg", "Brüksel", "Cenevre", "New York"],
+      "cevap": "Lahey"
+    },
+    {
+      "id": 33,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "1969 yılında kurulan İslam İşbirliği Teşkilatı'nın (İİT) resmi merkezi neresidir?",
+      "secenekler": ["Cidde", "Riyad", "Mekke", "Medine", "Kahire"],
+      "cevap": "Cidde"
+    },
+    {
+      "id": 34,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Son katılan tam üyesi Özbekistan olan Türk Devletleri Teşkilatı'nın (TDT) merkezi hangi şehirdedir?",
+      "secenekler": ["İstanbul", "Ankara", "Bakü", "Taşkent", "Semerkant"],
+      "cevap": "İstanbul"
+    },
+    {
+      "id": 35,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Türkiye'nin kurucu üyelerinden olduğu Avrupa Konseyi'nin merkezi nerededir?",
+      "secenekler": ["Strazburg", "Brüksel", "Lahey", "Cenevre", "Paris"],
+      "cevap": "Strazburg"
+    },
+    {
+      "id": 36,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Avrupa Birliği'nin (AB) fiili başkenti ve ana organlarının bulunduğu şehir hangisidir?",
+      "secenekler": ["Brüksel", "Strazburg", "Paris", "Berlin", "Amsterdam"],
+      "cevap": "Brüksel"
+    },
+    {
+      "id": 37,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Necmettin Erbakan öncülüğünde İstanbul'da kurulan, gelişmekte olan 8 İslam ülkesinin üye olduğu örgüt hangisidir?",
+      "secenekler": ["D-8", "G-8", "G-20", "KEİ", "EİT"],
+      "cevap": "D-8"
+    },
+    {
+      "id": 38,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Türkiye'nin öncülüğünde kurulan Karadeniz Ekonomik İşbirliği (KEİ) örgütünün merkezi neresidir?",
+      "secenekler": ["İstanbul", "Ankara", "Trabzon", "İzmir", "Samsun"],
+      "cevap": "İstanbul"
+    },
+    {
+      "id": 39,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Uluslararası Polis Teşkilatı olan Interpol'ün merkezi hangi kenttedir?",
+      "secenekler": ["Lyon", "Paris", "Marsilya", "Cenevre", "Brüksel"],
+      "cevap": "Lyon"
+    },
+    {
+      "id": 40,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Petrol İhraç Eden Ülkeler Örgütü'nün (OPEC) merkezi hangi kenttedir?",
+      "secenekler": ["Viyana", "Cidde", "Riyad", "Bağdat", "Kuveyt"],
+      "cevap": "Viyana"
+    },
+    {
+      "id": 41,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "1936 yılında imzalanan ve Türkiye'ye boğazlar üzerinde tam yetki veren sözleşme hangisidir?",
+      "secenekler": ["Montrö Boğazlar Sözleşmesi", "Lozan Barış Antlaşması", "Sevr Antlaşması", "Ankara Antlaşması", "Mondros Mütarekesi"],
+      "cevap": "Montrö Boğazlar Sözleşmesi"
+    },
+    {
+      "id": 42,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "AB üye ülkeleri arasında sınır kontrollerini kaldıran anlaşma hangisidir?",
+      "secenekler": ["Schengen Anlaşması", "Maastricht Antlaşması", "Lizbon Antlaşması", "Roma Antlaşması", "Kopenhag Kriterleri"],
+      "cevap": "Schengen Anlaşması"
+    },
+    {
+      "id": 43,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Küresel ısınma ve sera gazı salınımını azaltmayı hedefleyen en büyük uluslararası çevre anlaşmaları hangileridir?",
+      "secenekler": ["Kyoto Protokolü ve Paris İklim Anlaşması", "Montreal Protokolü ve Rio Sözleşmesi", "Cenevre Sözleşmesi ve Bern Sözleşmesi", "Viyana Sözleşmesi ve Basel Sözleşmesi", "Ramsar Sözleşmesi ve CITES"],
+      "cevap": "Kyoto Protokolü ve Paris İklim Anlaşması"
+    },
+    {
+      "id": 44,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Euro para birimini yöneten Avrupa Merkez Bankası'nın (ECB) merkezi nerededir?",
+      "secenekler": ["Frankfurt", "Berlin", "Münih", "Brüksel", "Paris"],
+      "cevap": "Frankfurt"
+    },
+    {
+      "id": 45,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Uluslararası Atom Enerjisi Ajansı'nın (IAEA) merkezi hangi kenttedir?",
+      "secenekler": ["Viyana", "Cenevre", "New York", "Paris", "Londra"],
+      "cevap": "Viyana"
+    },
+    {
+      "id": 46,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "İşçi hakları ve çalışma hayatını düzenleyen Uluslararası Çalışma Örgütü'nün (ILO) merkezi nerededir?",
+      "secenekler": ["Cenevre", "New York", "Viyana", "Paris", "Brüksel"],
+      "cevap": "Cenevre"
+    },
+    {
+      "id": 47,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Birleşmiş Milletler'e bağlı Gıda ve Tarım Örgütü'nün (FAO) merkezi neresidir?",
+      "secenekler": ["Roma", "Cenevre", "Paris", "New York", "Viyana"],
+      "cevap": "Roma"
+    },
+    {
+      "id": 48,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Müslüman ülkelerin kalkınma projelerine fon sağlayan İslam Kalkınma Bankası'nın merkezi neresidir?",
+      "secenekler": ["Cidde", "Riyad", "Dubai", "Doha", "Abu Dabi"],
+      "cevap": "Cidde"
+    },
+    {
+      "id": 49,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "Türkiye'nin 1952'de üye olduğu Kuzey Atlantik Antlaşması Örgütü'nün (NATO) merkezi nerededir?",
+      "secenekler": ["Brüksel", "Washington", "Londra", "Paris", "Strazburg"],
+      "cevap": "Brüksel"
+    },
+    {
+      "id": 50,
+      "kategori": "Uluslararası Kuruluşlar ve Merkezler",
+      "soru": "AB'ye üye olmayan ama Avrupa pazarında yer alan İsviçre ve Norveç gibi ülkelerin kurduğu Avrupa Serbest Ticaret Birliği'nin kısaltması nedir?",
+      "secenekler": ["EFTA", "NAFTA", "MERCOSUR", "ASEAN", "APEC"],
+      "cevap": "EFTA"
+    },
+    {
+      "id": 51,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "1985 yılında Türkiye'den UNESCO Dünya Mirası Listesi'ne giren ilk alanlarımız hangileridir?",
+      "secenekler": ["Divriği Ulu Camii, Göreme Milli Parkı ve İstanbul'un Tarihi Alanları", "Efes, Troya ve Pamukkale", "Hattuşaş, Nemrut ve Safranbolu", "Çatalhöyük, Bergama ve Cumalıkızık", "Diyarbakır Surları, Ani Harabeleri ve Göbeklitepe"],
+      "cevap": "Divriği Ulu Camii, Göreme Milli Parkı ve İstanbul'un Tarihi Alanları"
+    },
+    {
+      "id": 52,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "2023 yılında UNESCO listesine dahil edilen Türkiye'nin 21. mirası hangisidir?",
+      "secenekler": ["Anadolu'nun Ortaçağ Dönemi Ahşap Hipostil Camileri", "Gordion Antik Kenti", "Arslantepe Höyüğü", "Göbeklitepe", "Afrodisias"],
+      "cevap": "Anadolu'nun Ortaçağ Dönemi Ahşap Hipostil Camileri"
+    },
+    {
+      "id": 53,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Şanlıurfa'da yer alan ve 'Tarihin sıfır noktası' olarak kabul edilen dünyanın en eski tapınağı hangisidir?",
+      "secenekler": ["Göbeklitepe", "Çatalhöyük", "Karahantepe", "Alacahöyük", "Çayönü"],
+      "cevap": "Göbeklitepe"
+    },
+    {
+      "id": 54,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Şanlıurfa'da bulunan ve Göbeklitepe'den daha eskiye tarihlendiği düşünülen yeni kazı alanı hangisidir?",
+      "secenekler": ["Karahantepe", "Göbeklitepe", "Çatalhöyük", "Hattuşaş", "Truva"],
+      "cevap": "Karahantepe"
+    },
+    {
+      "id": 55,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Türkiye'nin en büyük gölü ve en büyük adası sırasıyla hangileridir?",
+      "secenekler": ["Van Gölü ve Gökçeada", "Tuz Gölü ve Bozcaada", "Beyşehir Gölü ve Cunda", "Eğirdir Gölü ve Marmara Adası", "Burdur Gölü ve Akdamar Adası"],
+      "cevap": "Van Gölü ve Gökçeada"
+    },
+    {
+      "id": 56,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "5137 metre yüksekliğe sahip olan Türkiye'nin en yüksek dağı hangisidir?",
+      "secenekler": ["Ağrı Dağı", "Erciyes Dağı", "Süphan Dağı", "Kaçkar Dağı", "Cilo Dağı"],
+      "cevap": "Ağrı Dağı"
+    },
+    {
+      "id": 57,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Sınırlarımız içinde doğup yine sınırlarımız içinde denize dökülen en uzun nehir hangisidir?",
+      "secenekler": ["Kızılırmak", "Yeşilırmak", "Fırat", "Sakarya", "Seyhan"],
+      "cevap": "Kızılırmak"
+    },
+    {
+      "id": 58,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Türkiye'nin ilk sakin şehri (Cittaslow) neresidir?",
+      "secenekler": ["Seferihisar", "Şavşat", "Halfeti", "Akyaka", "Gökçeada"],
+      "cevap": "Seferihisar"
+    },
+    {
+      "id": 59,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Muğla sınırları içinde bulunan Türkiye'nin ilk tabiat parkı neresidir?",
+      "secenekler": ["Ölüdeniz-Kıdrak", "Uzungöl", "Abant", "Yedigöller", "Gölcük"],
+      "cevap": "Ölüdeniz-Kıdrak"
+    },
+    {
+      "id": 60,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "1958 yılında ilan edilen Türkiye'nin ilk milli parkı neresidir?",
+      "secenekler": ["Yozgat Çamlığı Milli Parkı", "Ilgaz Dağı Milli Parkı", "Soğuksu Milli Parkı", "Uludağ Milli Parkı", "Kuşcenneti Milli Parkı"],
+      "cevap": "Yozgat Çamlığı Milli Parkı"
+    },
+    {
+      "id": 61,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Ankara ve Bolu sınırlarında bulunan ve en son ilan edilen milli parklardan biri hangisidir?",
+      "secenekler": ["Abant Gölü Milli Parkı", "Sarıkamış Allahuekber Dağları", "Kop Dağı Müdafaası", "Nene Hatun Tarihi Milli Parkı", "Spil Dağı Milli Parkı"],
+      "cevap": "Abant Gölü Milli Parkı"
+    },
+    {
+      "id": 62,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "1971 yılında Sağlık Bakanı olarak görev yapan Türkiye'nin ilk kadın bakanı kimdir?",
+      "secenekler": ["Türkan Akyol", "Tansu Çiller", "Lale Aytaman", "Işılay Saygın", "Nermin Abadan Unat"],
+      "cevap": "Türkan Akyol"
+    },
+    {
+      "id": 63,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "1993-1996 yılları arasında görev yapan Türkiye'nin ilk kadın başbakanı kimdir?",
+      "secenekler": ["Tansu Çiller", "Türkan Akyol", "Lale Aytaman", "Güldal Akşit", "Fatma Şahin"],
+      "cevap": "Tansu Çiller"
+    },
+    {
+      "id": 64,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "1991 yılında Muğla Valisi olarak atanan Türkiye'nin ilk kadın valisi kimdir?",
+      "secenekler": ["Lale Aytaman", "Türkan Akyol", "Tansu Çiller", "Işılay Saygın", "Meral Akşener"],
+      "cevap": "Lale Aytaman"
+    },
+    {
+      "id": 65,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Ahmet Adnan Saygun tarafından bestelenen ilk Türk operası hangisidir?",
+      "secenekler": ["Özsoy Operası", "Kerem", "Köroğlu", "Gilgameş", "Lüküs Hayat"],
+      "cevap": "Özsoy Operası"
+    },
+    {
+      "id": 66,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Cumhuriyetimizin 100. yılına ithafen yapılan, dünyanın en uzun orta açıklıklı asma köprüsü hangisidir?",
+      "secenekler": ["1915 Çanakkale Köprüsü", "Osmangazi Köprüsü", "Yavuz Sultan Selim Köprüsü", "Fatih Sultan Mehmet Köprüsü", "Boğaziçi Köprüsü"],
+      "cevap": "1915 Çanakkale Köprüsü"
+    },
+    {
+      "id": 67,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Karadeniz'i Erzurum'a bağlayan ve Türkiye'nin en uzun tünellerinden olan tüneller hangileridir?",
+      "secenekler": ["Ovit Dağı ve Zigana Tüneli", "Ilgaz 15 Temmuz İstiklal Tüneli", "Avrasya Tüneli", "Bolu Dağı Tüneli", "Kop Dağı Tüneli"],
+      "cevap": "Ovit Dağı ve Zigana Tüneli"
+    },
+    {
+      "id": 68,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Gövde hacmi bakımından Türkiye'nin en büyüğü olan ve Fırat Nehri üzerinde bulunan baraj hangisidir?",
+      "secenekler": ["Atatürk Barajı", "Keban Barajı", "Karakaya Barajı", "Ilısu Barajı", "Birecik Barajı"],
+      "cevap": "Atatürk Barajı"
+    },
+    {
+      "id": 69,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Artvin'de Çoruh Nehri üzerinde inşa edilen ve kendi sınıfında Türkiye'nin en yüksek barajı olan yapı hangisidir?",
+      "secenekler": ["Yusufeli Barajı", "Deriner Barajı", "Ermenek Barajı", "Oymapınar Barajı", "Borçka Barajı"],
+      "cevap": "Yusufeli Barajı"
+    },
+    {
+      "id": 70,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Osmanlı döneminde Anadolu'da açılan ilk Türk demiryolu hattı hangisidir?",
+      "secenekler": ["İzmir-Aydın", "İstanbul-Edirne", "Ankara-Eskişehir", "Adana-Mersin", "Eskişehir-Konya"],
+      "cevap": "İzmir-Aydın"
+    },
+    {
+      "id": 71,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Türkiye'de temiz deniz ve plaj simgesi olan Mavi Bayrak ödülüne en çok sahip şehir neresidir?",
+      "secenekler": ["Antalya", "Muğla", "İzmir", "Aydın", "Balıkesir"],
+      "cevap": "Antalya"
+    },
+    {
+      "id": 72,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Çanakkale'ye bağlı olan ve Cittaslow unvanı alan Türkiye'nin ilk sakin adası neresidir?",
+      "secenekler": ["Gökçeada", "Bozcaada", "Cunda", "Marmara Adası", "Avşa Adası"],
+      "cevap": "Gökçeada"
+    },
+    {
+      "id": 73,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Kars'ın Ani harabelerinde Selçuklular tarafından inşa edilen Anadolu'nun ilk camisi hangisidir?",
+      "secenekler": ["Ebu'l Manuçehr Camii", "Divriği Ulu Camii", "Alaaddin Camii", "İsa Bey Camii", "Ulu Camii (Bursa)"],
+      "cevap": "Ebu'l Manuçehr Camii"
+    },
+    {
+      "id": 74,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Türkiye'nin doğalgaz arama çalışmalarını yürüten ilk yerli sondaj gemisi hangisidir?",
+      "secenekler": ["Fatih", "Yavuz", "Kanuni", "Abdülhamid Han", "Oruç Reis"],
+      "cevap": "Fatih"
+    },
+    {
+      "id": 75,
+      "kategori": "Türkiye'nin İlkleri ve Coğrafya",
+      "soru": "Kocaeli'de bulunan Avrupa'nın en büyük doğal yaşam parkının adı nedir?",
+      "secenekler": ["Ormanya Doğal Yaşam Parkı", "Atatürk Orman Çiftliği", "Gülhane Parkı", "Emirgan Korusu", "Atatürk Arboretumu"],
+      "cevap": "Ormanya Doğal Yaşam Parkı"
+    },
+    {
+      "id": 76,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "İstiklal Marşı'nın ilk bestecisi ve günümüzde okunan son halinin bestecisi sırasıyla kimlerdir?",
+      "secenekler": ["Ali Rıfat Çağatay ve Zeki Üngör", "Osman Zeki Üngör ve Mehmet Akif Ersoy", "İsmail Hakkı Bey ve Edgar Manas", "Cemal Reşit Rey ve Adnan Saygun", "Hasan Ferit Alnar ve Ulvi Cemal Erkin"],
+      "cevap": "Ali Rıfat Çağatay ve Zeki Üngör"
+    },
+    {
+      "id": 77,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "İstiklal Marşı'nın ilk kez yayımlandığı gazete ve dergi hangileridir?",
+      "secenekler": ["Açıksöz ve Sebilürreşad", "Tercüman-ı Ahval ve Tasvir-i Efkar", "Ceride-i Havadis ve Varlık", "Hakimiyet-i Milliye ve Dergah", "İrade-i Milliye ve Sırat-ı Müstakim"],
+      "cevap": "Açıksöz ve Sebilürreşad"
+    },
+    {
+      "id": 78,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Mehmet Akif Ersoy, İstiklal Marşı'ndan kazandığı ödülü hangi kuruma bağışlamıştır?",
+      "secenekler": ["Darülmesai", "Darülaceze", "Darüşşafaka", "Kızılay", "Yeşilay"],
+      "cevap": "Darülmesai"
+    },
+    {
+      "id": 79,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Milli Mücadele dönemini anlatan 'Sinekli Bakkal' ve 'Ateşten Gömlek' eserlerinin yazarı kimdir?",
+      "secenekler": ["Halide Edib Adıvar", "Reşat Nuri Güntekin", "Yakup Kadri Karaosmanoğlu", "Refik Halit Karay", "Falih Rıfkı Atay"],
+      "cevap": "Halide Edib Adıvar"
+    },
+    {
+      "id": 80,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Tarihi ve toplumsal gerçekçi romanlarıyla tanınan, 'Devlet Ana' ve 'Yorgun Savaşçı'nın yazarı kimdir?",
+      "secenekler": ["Kemal Tahir", "Yaşar Kemal", "Orhan Kemal", "Tarık Buğra", "Peyami Safa"],
+      "cevap": "Kemal Tahir"
+    },
+    {
+      "id": 81,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "'İnce Memed' serisiyle tanınan ve Nobel'e aday gösterilen ilk yazarımız kimdir?",
+      "secenekler": ["Yaşar Kemal", "Kemal Tahir", "Orhan Kemal", "Sabahattin Ali", "Aziz Nesin"],
+      "cevap": "Yaşar Kemal"
+    },
+    {
+      "id": 82,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Türk edebiyatında postmodern tarzın ilk başyapıtı sayılan 'Tutunamayanlar' eserin yazarı kimdir?",
+      "secenekler": ["Oğuz Atay", "Yusuf Atılgan", "Orhan Pamuk", "İhsan Oktay Anar", "Hasan Ali Toptaş"],
+      "cevap": "Oğuz Atay"
+    },
+    {
+      "id": 83,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Türk edebiyatına batılı anlamda ilk realist romanları kazandıran 'Mai ve Siyah' ile 'Aşk-ı Memnu'nun yazarı kimdir?",
+      "secenekler": ["Halid Ziya Uşaklıgil", "Mehmet Rauf", "Namık Kemal", "Recaizade Mahmud Ekrem", "Hüseyin Rahmi Gürpınar"],
+      "cevap": "Halid Ziya Uşaklıgil"
+    },
+    {
+      "id": 84,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Türk edebiyatında 'Şair-i Azam' (Büyük Şair) unvanıyla bilinen Tanzimat dönemi sanatçısı kimdir?",
+      "secenekler": ["Abdülhak Hamit Tarhan", "Tevfik Fikret", "Cenap Şahabettin", "Namık Kemal", "Ziya Paşa"],
+      "cevap": "Abdülhak Hamit Tarhan"
+    },
+    {
+      "id": 85,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "İstanbul'un üç farklı dönemini anlatan 'Üç İstanbul' romanının yazarı kimdir?",
+      "secenekler": ["Mithat Cemal Kuntay", "Ahmet Hamdi Tanpınar", "Peyami Safa", "Yakup Kadri Karaosmanoğlu", "Ahmet Rasim"],
+      "cevap": "Mithat Cemal Kuntay"
+    },
+    {
+      "id": 86,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "İdealist öğretmen Feride'nin maceralarını anlatan 'Çalıkuşu' romanının yazarı kimdir?",
+      "secenekler": ["Reşat Nuri Güntekin", "Halide Edib Adıvar", "Yakup Kadri Karaosmanoğlu", "Ömer Seyfettin", "Ahmet Haşim"],
+      "cevap": "Reşat Nuri Güntekin"
+    },
+    {
+      "id": 87,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "'Bayrak' şiiriyle hafızalara kazınan ve 'Bayrak Şairi' olarak anılan şairimiz kimdir?",
+      "secenekler": ["Arif Nihat Asya", "Mehmet Akif Ersoy", "Yahya Kemal Beyatlı", "Necip Fazıl Kısakürek", "Cahit Sıtkı Tarancı"],
+      "cevap": "Arif Nihat Asya"
+    },
+    {
+      "id": 88,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Türk edebiyatında toplumcu gerçekçi akımın üç büyük temsilcisi olan 'Üç Kemaller' kimlerdir?",
+      "secenekler": ["Yaşar Kemal, Kemal Tahir ve Orhan Kemal", "Namık Kemal, Yahya Kemal, Kemalettin Tuğcu", "Mustafa Kemal, Namık Kemal, Kemal Tahir", "Orhan Kemal, Orhan Veli, Orhan Pamuk", "Kemal Tahir, Yahya Kemal, Namık Kemal"],
+      "cevap": "Yaşar Kemal, Kemal Tahir ve Orhan Kemal"
+    },
+    {
+      "id": 89,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Osmanlı Devleti'nde Lale Devri'nde ilk özel Türk matbaasını kuran kişiler kimlerdir?",
+      "secenekler": ["İbrahim Müteferrika ve Said Efendi", "Agah Efendi ve Şinasi", "Namık Kemal ve Ziya Paşa", "Ahmet Mithat Efendi ve Muallim Naci", "Şemsettin Sami ve Ahmet Vefik Paşa"],
+      "cevap": "İbrahim Müteferrika ve Said Efendi"
+    },
+    {
+      "id": 90,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "1831 yılında İkinci Mahmud döneminde çıkarılmaya başlanan ilk resmi Osmanlı gazetesi hangisidir?",
+      "secenekler": ["Takvim-i Vekayi", "Ceride-i Havadis", "Tercüman-ı Ahval", "Tasvir-i Efkar", "Tercüman-ı Hakikat"],
+      "cevap": "Takvim-i Vekayi"
+    },
+    {
+      "id": 91,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "İlk yarı resmi gazete ve ilk tamamen özel gazete sırasıyla hangileridir?",
+      "secenekler": ["Ceride-i Havadis ve Tercüman-ı Ahval", "Takvim-i Vekayi ve Tasvir-i Efkar", "Tercüman-ı Hakikat ve İkdam", "Hürriyet ve Milliyet", "Sabah ve Vakit"],
+      "cevap": "Ceride-i Havadis ve Tercüman-ı Ahval"
+    },
+    {
+      "id": 92,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Türk resim sanatının ünlü eseri 'Kaplumbağa Terbiyecisi' tablosunun ressamı kimdir?",
+      "secenekler": ["Osman Hamdi Bey", "Şeker Ahmet Paşa", "İbrahim Çallı", "Fikret Mualla", "Abidin Dino"],
+      "cevap": "Osman Hamdi Bey"
+    },
+    {
+      "id": 93,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Dünyaca ünlü 'Düşünen Adam' heykelinin tasarımcısı olan Fransız sanatçı kimdir?",
+      "secenekler": ["Auguste Rodin", "Michelangelo", "Leonardo da Vinci", "Donatello", "Picasso"],
+      "cevap": "Auguste Rodin"
+    },
+    {
+      "id": 94,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Mimar Sinan'ın çıraklık, kalfalık ve ustalık eserleri sırasıyla hangileridir?",
+      "secenekler": ["Şehzade, Süleymaniye ve Selimiye", "Süleymaniye, Selimiye ve Sultanahmet", "Selimiye, Şehzade ve Fatih", "Sultanahmet, Süleymaniye ve Ayasofya", "Fatih, Süleymaniye ve Yeni Cami"],
+      "cevap": "Şehzade, Süleymaniye ve Selimiye"
+    },
+    {
+      "id": 95,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Araplara Türkçe öğretmek amacıyla yazılan ilk Türk dünyası sözlüğü 'Divanu Lugati't-Türk'ün yazarı kimdir?",
+      "secenekler": ["Kaşgarlı Mahmud", "Yusuf Has Hacib", "Edip Ahmet Yükneki", "Ahmet Yesevi", "Hoca Dehhani"],
+      "cevap": "Kaşgarlı Mahmud"
+    },
+    {
+      "id": 96,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Türk-İslam tarihinin ilk siyasetnamesi sayılan 'Kutadgu Bilig'in yazarı kimdir?",
+      "secenekler": ["Yusuf Has Hacib", "Kaşgarlı Mahmud", "Edip Ahmet Yükneki", "Ahmet Yesevi", "Nizamülmülk"],
+      "cevap": "Yusuf Has Hacib"
+    },
+    {
+      "id": 97,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Artuklular döneminde yaşamış, sibernetik ve robotik bilimin kurucusu sayılan İslam bilgini kimdir?",
+      "secenekler": ["El-Cezeri", "İbn-i Sina", "Farabi", "Biruni", "Harezmi"],
+      "cevap": "El-Cezeri"
+    },
+    {
+      "id": 98,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "İskenderiye'de yazdığı 'Elementler' eseriyle matematik tarihine yön veren ve 'Geometrinin Babası' sayılan isim kimdir?",
+      "secenekler": ["Öklid", "Pisagor", "Arşimet", "Thales", "Harezmi"],
+      "cevap": "Öklid"
+    },
+    {
+      "id": 99,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Avrupa'da 'Avicenna' adıyla bilinen ve 'Tıbbın Kanunu' eserinin yazarı büyük hekim kimdir?",
+      "secenekler": ["İbn-i Sina", "Farabi", "Gazali", "İbn-i Rüşd", "Biruni"],
+      "cevap": "İbn-i Sina"
+    },
+    {
+      "id": 100,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Gök cisimlerinin hareketleri üzerine çalışmalar yapan ve Batı dünyasında 'Alfraganus' adıyla anılan Türk-İslam astronomu kimdir?",
+      "secenekler": ["Fergani", "Ali Kuşçu", "Uluğ Bey", "Biruni", "Takiyüddin"],
+      "cevap": "Fergani"
+    }
+  ]
+}
 }
