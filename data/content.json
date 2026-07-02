@@ -2,14 +2,14 @@
   "cards": [
     {
       "title": "Hoş geldin",
-      "body": "Bu ECK — Esranın Çalışma Kitabı. Bilgi kartlarını ve testleri buradan çalışabilirsin."
+      "body": "Bu ECK — Esra'nın Çalışma Kitabı. Bilgi kartlarını ve testleri buradan çalışabilirsin."
     }
   ],
   "quizzes": [
     {
       "question": "ECK ne anlama gelir?",
       "options": [
-        "Esranın Çalışma Kitabı",
+        "Esra'nın Çalışma Kitabı",
         "Esra'nın Kontrol Kitabı",
         "Eğitim Çalışma Klavuzu",
         "Elektronik Çalışma Kaynağı",
