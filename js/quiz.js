@@ -20,6 +20,7 @@ let allQuizzes = [];
 let testGroups = [];
 let currentTestIndex = null;
 let currentAnswers = [];
+let currentOptionOrders = [];
 
 function buildTestGroups(quizzes) {
   const shuffled = shuffleArray(quizzes);
@@ -60,7 +61,15 @@ function renderTestList() {
 
 function openTest(testIndex) {
   currentTestIndex = testIndex;
-  currentAnswers = new Array(testGroups[testIndex].length).fill(null);
+  const quizzes = testGroups[testIndex];
+  currentAnswers = new Array(quizzes.length).fill(null);
+
+  // Her soru için şıkların ekranda gösterilecek sırasını rastgele karıştır.
+  // currentOptionOrders[soruIndex][ekranPozisyonu] = orijinal (JSON'daki) şık indexi
+  currentOptionOrders = quizzes.map((quiz) =>
+    shuffleArray(quiz.secenekler.map((_, originalIndex) => originalIndex))
+  );
+
   renderActiveTest();
 }
 
@@ -79,15 +88,17 @@ function renderActiveTest() {
           console.warn(`Soru ${index + 1}: tam 5 şık olmalı.`);
         }
 
+        const order = currentOptionOrders[index];
+
         return `
         <div class="quiz-question" data-quiz-index="${index}">
           <p><strong>${index + 1}.</strong> ${escapeHtml(quiz.soru)}</p>
           <div class="quiz-options">
-            ${quiz.secenekler
-              .map(
-                (option, optionIndex) =>
-                  `<button type="button" data-option="${optionIndex}">${escapeHtml(option)}</button>`
-              )
+            ${order
+              .map((originalIndex, displayPosition) => {
+                const option = quiz.secenekler[originalIndex];
+                return `<button type="button" data-option="${displayPosition}" data-original-index="${originalIndex}">${escapeHtml(option)}</button>`;
+              })
               .join('')}
           </div>
         </div>
@@ -103,20 +114,20 @@ function renderActiveTest() {
   section.querySelectorAll('.quiz-question').forEach((block) => {
     const quizIndex = Number(block.dataset.quizIndex);
     const quiz = quizzes[quizIndex];
-    const correctIndex = quiz.secenekler.indexOf(quiz.cevap);
+    const correctOriginalIndex = quiz.secenekler.indexOf(quiz.cevap);
 
     block.querySelectorAll('button').forEach((button) => {
       button.addEventListener('click', () => {
-        const chosen = Number(button.dataset.option);
-        const isCorrect = chosen === correctIndex;
+        const chosenOriginalIndex = Number(button.dataset.originalIndex);
+        const isCorrect = chosenOriginalIndex === correctOriginalIndex;
 
         currentAnswers[quizIndex] = isCorrect ? 'correct' : 'wrong';
 
         block.querySelectorAll('button').forEach((btn) => {
           btn.disabled = true;
-          const idx = Number(btn.dataset.option);
-          if (idx === correctIndex) btn.classList.add('correct');
-          else if (idx === chosen) btn.classList.add('wrong');
+          const btnOriginalIndex = Number(btn.dataset.originalIndex);
+          if (btnOriginalIndex === correctOriginalIndex) btn.classList.add('correct');
+          else if (btnOriginalIndex === chosenOriginalIndex) btn.classList.add('wrong');
         });
 
         if (isCorrect) {
@@ -147,12 +158,12 @@ function finishActiveTest() {
 
     const block = section.querySelector(`.quiz-question[data-quiz-index="${index}"]`);
     if (!block) return;
-    const correctIndex = quiz.secenekler.indexOf(quiz.cevap);
+    const correctOriginalIndex = quiz.secenekler.indexOf(quiz.cevap);
 
     block.querySelectorAll('button').forEach((btn) => {
       btn.disabled = true;
-      const idx = Number(btn.dataset.option);
-      if (answer === null && idx === correctIndex) {
+      const btnOriginalIndex = Number(btn.dataset.originalIndex);
+      if (answer === null && btnOriginalIndex === correctOriginalIndex) {
         btn.classList.add('unanswered');
       }
     });
