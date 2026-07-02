@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esra'nın Çalışma Kitabı</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>6 Eylül 2026</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="ana-konteyner">
-        <header>
-            <h1 class="baslik">Esra'nın Çalışma Kitabı</h1>
-        </header>
-
-        <div id="countdown-timer"></div>
-
-        <div class="hosgeldin-karti">
-            <h2>Hoş geldin</h2>
-            <p>Bu ECK — Esra'nın Çalışma Kitabı. Bilgi kartlarını ve testleri buradan çalışabilirsin.</p>
-        </div>
-
-        <section id="quiz-section">
-            </section>
+  <header class="countdown-header">
+    <div id="countdown" class="countdown-box">
+      <span id="countdown-text">Yükleniyor...</span>
     </div>
+  </header>
 
-    <script src="js/quiz.js?v=2"></script>
-    
-    </body>
+  <main class="container">
+    <h1>Bilgi Kartları & Testler</h1>
+
+    <section id="cards-section" class="cards-grid"></section>
+
+    <section id="quiz-section" class="quiz-area"></section>
+  </main>
+
+  <script src="js/countdown.js"></script>
+  <script src="js/cards.js"></script>
+  <script src="js/quiz.js?v=2"></script>
+</body>
 </html>
