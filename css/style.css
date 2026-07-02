@@ -1,257 +1,122 @@
-* {
-  box-sizing: border-box;
-}
-
-:root {
-  --purple-dark: #5b21b6;
-  --purple-main: #7c3aed;
-  --purple-light: #a78bfa;
-  --purple-soft: #ede9fe;
-  --purple-muted: #8b5cf6;
-  --text-main: #4c1d95;
-  --text-soft: #6d28d9;
-  --white: #ffffff;
-  --correct: #059669;
-  --wrong: #dc2626;
-}
-
+/* Genel Ayarlar ve Arka Plan */
 body {
-  margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  background: #FFF9C4;
-  color: var(--text-main);
-  min-height: 100vh;
-  padding-top: 4rem;
-  position: relative;
-  overflow-x: hidden;
+    background-color: #FFF9C4; /* Laleleri belli eden sıcak sarı arka plan */
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
 }
 
-.tulip-garden {
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  overflow: hidden;
-}
-
-.tulip {
-  position: absolute;
-  width: 58px;
-  height: 104px;
-  transform: scale(var(--scale)) rotate(var(--rotate));
-  opacity: 0.58;
-  animation: tulipSway 6s ease-in-out infinite;
-  transition: transform 0.45s ease, opacity 0.45s ease;
-}
-
-.tulip-svg {
-  width: 100%;
-  height: 100%;
-  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.07));
-}
-
-.tulip-face {
-  opacity: 0;
-  transition: opacity 0.35s ease;
-}
-
-.tulip-bloom-group {
-  transform-origin: 50px 80px;
-  transition: transform 0.4s ease;
-}
-
-.tulip.smiling {
-  opacity: 0.92;
-  transform: scale(calc(var(--scale) * 1.08)) rotate(var(--rotate)) translateY(-4px);
-  animation: tulipHappy 0.65s ease;
-}
-
-.tulip.smiling .tulip-face {
-  opacity: 1;
-}
-
-.tulip.smiling .tulip-bloom-group {
-  transform: scale(1.06, 1.04);
-}
-
-@keyframes tulipSway {
-  0%, 100% { transform: scale(var(--scale)) rotate(var(--rotate)) translateX(0); }
-  50% { transform: scale(var(--scale)) rotate(calc(var(--rotate) + 3deg)) translateX(3px); }
-}
-
-@keyframes tulipHappy {
-  0% { transform: scale(var(--scale)) rotate(var(--rotate)); }
-  40% { transform: scale(calc(var(--scale) * 1.15)) rotate(var(--rotate)) translateY(-10px); }
-  100% { transform: scale(calc(var(--scale) * 1.12)) rotate(var(--rotate)) translateY(-6px); }
-}
-
-.countdown-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  padding: 0.75rem 1rem;
-  display: flex;
-  justify-content: flex-end;
-  background: rgba(255, 255, 255, 0.92);
-  border-bottom: 1px solid var(--purple-soft);
-  backdrop-filter: blur(8px);
-}
-
-.countdown-box {
-  font-size: clamp(0.72rem, 3.2vw, 1rem);
-  font-weight: 600;
-  color: var(--purple-main);
-  text-align: right;
-  line-height: 1.4;
-}
-
-.countdown-label {
-  color: var(--purple-dark);
-  font-weight: 800;
-  margin-right: 0.35rem;
-}
-
-.container {
-  position: relative;
-  z-index: 1;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 1rem;
-}
-
-.site-header {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.site-header h1 {
-  margin: 0;
-  font-size: clamp(2rem, 8vw, 2.75rem);
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  color: var(--purple-dark);
-}
-
-.site-subtitle {
-  margin: 0.35rem 0 0;
-  font-size: clamp(0.95rem, 3.5vw, 1.15rem);
-  color: var(--text-soft);
-}
-
-.cards-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-@media (min-width: 600px) {
-  .cards-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-.card {
-  background: rgba(255, 255, 255, 0.88);
-  border-radius: 14px;
-  padding: 1.25rem;
-  border: 1px solid var(--purple-soft);
-  box-shadow: 0 4px 18px rgba(124, 58, 237, 0.08);
-  backdrop-filter: blur(4px);
-}
-
-.card h3 {
-  margin: 0 0 0.75rem;
-  color: var(--purple-dark);
-  font-size: 1.1rem;
-}
-
-.card p {
-  margin: 0;
-  line-height: 1.6;
-  color: var(--text-main);
-}
-
-.quiz-area h2 {
-  font-size: clamp(1.1rem, 4vw, 1.5rem);
-  margin-bottom: 1rem;
-  color: var(--purple-dark);
-}
-
-.quiz-question {
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 14px;
-  padding: 1.25rem;
-  margin-bottom: 1rem;
-  border: 1px solid var(--purple-soft);
-  box-shadow: 0 4px 18px rgba(124, 58, 237, 0.08);
-}
-
-.quiz-question > p {
-  margin: 0 0 1rem;
-  line-height: 1.5;
-  color: var(--text-main);
-}
-
-.quiz-options button {
-  display: block;
-  width: 100%;
-  margin: 0.5rem 0;
-  padding: 0.85rem 1rem;
-  min-height: 44px;
-  border: 1px solid var(--purple-soft);
-  border-radius: 10px;
-  background: var(--white);
-  color: var(--text-main);
-  cursor: pointer;
-  font-size: 1rem;
-  text-align: left;
-  line-height: 1.35;
-  transition: background 0.2s ease, border-color 0.2s ease;
-}
-
-.quiz-options button:hover:not(:disabled) {
-  background: var(--purple-soft);
-  border-color: var(--purple-light);
-}
-
-.quiz-options button:disabled {
-  cursor: default;
-}
-
-.quiz-options button.correct {
-  background: #d1fae5;
-  border-color: var(--correct);
-  color: #065f46;
-}
-
-.quiz-options button.wrong {
-  background: #fee2e2;
-  border-color: var(--wrong);
-  color: #991b1b;
-}
-/* Kuğu İkonu Tasarımı ve Konumu */
+/* 🦢 Kuğu İkonu Tasarımı ve Konumu */
 .kugu-konteyner {
-    position: fixed; /* Sayfa aşağı kaydırılsa bile hep görünür kalır */
-    top: 25px;       /* Yukarıdan boşluk */
-    left: 25px;      /* Soldan boşluk */
-    width: 60px;     /* Kuğunun büyüklüğü */
-    height: 60px;
-    z-index: 9999;   /* Diğer tüm yazıların/kartların üstünde durmasını sağlar */
-    animation: kuguSalinimi 4s infinite ease-in-out; /* Hafif yüzme animasyonu */
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    width: 65px;
+    height: 65px;
+    z-index: 999999; /* Kuğu hiçbir şeyin altında kalmaz */
+    animation: kuguSalinimi 4s infinite ease-in-out;
     cursor: pointer;
 }
 
-/* Kuğu İkonuna Hafif Yüzme Hareketi */
 @keyframes kuguSalinimi {
     0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-6px); }
+    50% { transform: translateY(-8px); }
 }
 
-/* Üzerine gelindiğinde hafifçe büyümesi için */
 .kugu-konteyner:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
+}
+
+/* Sayfa İçi Konteyner (Ortalama) */
+.ana-konteyner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Başlık */
+.baslik {
+    text-align: center;
+    color: #512da8;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Hoş Geldin Kartı */
+.hosgeldin-karti {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    margin-bottom: 40px;
+    border-left: 5px solid #512da8;
+}
+
+.hosgeldin-karti h2 {
+    margin-top: 0;
+    color: #512da8;
+    font-size: 20px;
+}
+
+/* Test Alanı ve Soru Kartları */
+#quiz-section h2 {
+    color: #512da8;
+    margin-bottom: 20px;
+}
+
+.quiz-question {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+}
+
+.quiz-question p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+/* Şık Butonları */
+.quiz-options button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #333;
+}
+
+.quiz-options button:hover:not(:disabled) {
+    background-color: #ede7f6;
+    border-color: #512da8;
+}
+
+/* Doğru ve Yanlış Cevap Renkleri */
+.quiz-options button.correct {
+    background-color: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+    font-weight: bold;
+}
+
+.quiz-options button.wrong {
+    background-color: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+}
+
+.quiz-options button:disabled {
+    cursor: not-allowed;
+    opacity: 0.8;
 }
