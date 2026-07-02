@@ -20,15 +20,15 @@ async function loadQuizzes() {
       '<h2>Testler</h2>' +
       data.quizzes
         .map((quiz, index) => {
-          if (!quiz.seçenekler || quiz.seçenekler.length !== 5) {
+          if (!quiz.secenekler || quiz.secenekler.length !== 5) {
             console.warn(`Soru ${index + 1}: tam 5 şık olmalı.`);
           }
 
           return `
-          <div class="quiz-soru" data-quiz-index="${index}">
+          <div class="quiz-question" data-quiz-index="${index}">
             <p><strong>${index + 1}.</strong> ${escapeHtml(quiz.soru)}</p>
-            <div class="quiz-seçenekler">
-              ${quiz.options
+            <div class="quiz-options">
+              ${quiz.secenekler
                 .map(
                   (option, optionIndex) =>
                     `<button type="button" data-option="${optionIndex}">${escapeHtml(option)}</button>`
@@ -40,9 +40,10 @@ async function loadQuizzes() {
         })
         .join('');
 
-    section.querySelectorAll('.quiz-soru').forEach((block) => {
+    section.querySelectorAll('.quiz-question').forEach((block) => {
       const quizIndex = Number(block.dataset.quizIndex);
       const quiz = data.quizzes[quizIndex];
+      const correctIndex = quiz.secenekler.indexOf(quiz.cevap);
 
       block.querySelectorAll('button').forEach((button) => {
         button.addEventListener('click', () => {
@@ -51,7 +52,7 @@ async function loadQuizzes() {
           block.querySelectorAll('button').forEach((btn) => {
             btn.disabled = true;
             const idx = Number(btn.dataset.option);
-            if (idx === quiz.correctIndex) btn.classList.add('correct');
+            if (idx === correctIndex) btn.classList.add('correct');
             else if (idx === chosen) btn.classList.add('wrong');
           });
         });
@@ -64,3 +65,4 @@ async function loadQuizzes() {
 }
 
 loadQuizzes();
+
