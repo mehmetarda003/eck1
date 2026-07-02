@@ -9,10 +9,12 @@ async function loadQuizzes() {
   const section = document.getElementById('quiz-section');
 
   try {
-    const res = await fetch('./data/content.json');
+    // DİKKAT: Tarayıcının eski dosyayı okumasını engellemek için sonuna tarih damgası ekledik
+    const url = './data/content.json?t=' + Date.now();
+    const res = await fetch(url);
     const data = await res.json();
 
-    // Eğer JSON'da yanlışlıkla "quizzes" içinde "quizzes" kaldıysa otomatik toparlar
+    // Fazladan quizzes parantezi kaldıysa otomatik toparlama
     let quizzesArray = data.quizzes;
     if (quizzesArray && !Array.isArray(quizzesArray) && quizzesArray.quizzes) {
       quizzesArray = quizzesArray.quizzes;
@@ -27,12 +29,7 @@ async function loadQuizzes() {
       '<h2>Testler</h2>' +
       quizzesArray
         .map((quiz, index) => {
-          // options yerine secenekler kullanıyoruz. Hata olmaması için boş dizi ataması yapıyoruz.
           const secenekler = quiz.secenekler || [];
-          if (secenekler.length !== 5) {
-            console.warn(`Soru ${index + 1}: tam 5 şık olmalı.`);
-          }
-
           return `
           <div class="quiz-question" data-quiz-index="${index}">
             <p><strong>${index + 1}.</strong> ${escapeHtml(quiz.soru)}</p>
@@ -52,7 +49,6 @@ async function loadQuizzes() {
     section.querySelectorAll('.quiz-question').forEach((block) => {
       const quizIndex = Number(block.dataset.quizIndex);
       const quiz = quizzesArray[quizIndex];
-      
       const correctIndex = (quiz.secenekler || []).indexOf(quiz.cevap);
 
       block.querySelectorAll('button').forEach((button) => {
