@@ -1,14 +1,12 @@
-/* Arka plan ve Lale Deseni Geri Geldi */
+/* Arka plan ve Lale Deseni */
 body { 
     background-color: #FFF9C4; 
-    /* Lalelerin dosya yolu. Eğer 'assets' klasöründeyse 'assets/lale.png' yapabilirsin */
-    background-image: url('../assets/lale.png'); 
+    background-image: url('../assets/lale.png'); /* Lalelerin yeri */
     background-repeat: repeat; 
-    background-attachment: fixed; /* Arka plan sabit dursun ki daha şık görünsün */
     margin: 0; padding: 0; font-family: sans-serif; color: #333; 
 }
 
-/* Kuğu (120px, tam istediğin boyutta) */
+/* Kuğu (Büyütülmüş) */
 .kugu-konteyner {
     position: fixed; top: 20px; left: 20px; width: 120px; z-index: 999999;
     animation: kuguSalinimi 4s infinite ease-in-out;
@@ -24,12 +22,11 @@ body {
 /* Sayaç Tasarımı */
 #countdown-timer { 
     font-size: 22px; font-weight: bold; text-align: center; 
-    color: #512da8; margin-bottom: 25px; 
-    background: rgba(255, 255, 255, 0.6); /* Arka planı hafif beyazlatıp lalelerin üstünde okunmasını kolaylaştırdık */
-    padding: 10px; border-radius: 10px;
+    color: #512da8; margin-bottom: 25px; background: rgba(255,255,255,0.7);
+    padding: 10px; border-radius: 10px; 
 }
 
-/* Kart tasarımları */
+/* Geri kalan tasarım aynı */
 .ana-konteyner { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
 .baslik { text-align: center; color: #512da8; }
 .hosgeldin-karti { background: white; padding: 25px; border-radius: 12px; margin-bottom: 40px; border-left: 5px solid #512da8; }
