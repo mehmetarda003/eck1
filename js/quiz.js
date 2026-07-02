@@ -1,4 +1,5 @@
 function escapeHtml(text) {
+  if (!text) return '';
   const div = document.createElement('div');
   div.textContent = text;
   return div.innerHTML;
@@ -8,21 +9,27 @@ async function loadQuizzes() {
   const section = document.getElementById('quiz-section');
 
   try {
-    // GitHub Pages'te sorun çıkmaması için dosya yolunun başına nokta ekledik
     const res = await fetch('./data/content.json');
     const data = await res.json();
 
-    if (!data.quizzes || data.quizzes.length === 0) {
+    // Eğer JSON'da yanlışlıkla "quizzes" içinde "quizzes" kaldıysa otomatik toparlar
+    let quizzesArray = data.quizzes;
+    if (quizzesArray && !Array.isArray(quizzesArray) && quizzesArray.quizzes) {
+      quizzesArray = quizzesArray.quizzes;
+    }
+
+    if (!quizzesArray || quizzesArray.length === 0) {
       section.innerHTML = '<h2>Testler</h2><p>Henüz test eklenmedi.</p>';
       return;
     }
 
     section.innerHTML =
       '<h2>Testler</h2>' +
-      data.quizzes
+      quizzesArray
         .map((quiz, index) => {
-          // JSON'daki "secenekler" anahtarını kullanıyoruz
-          if (!quiz.secenekler || quiz.secenekler.length !== 5) {
+          // options yerine secenekler kullanıyoruz. Hata olmaması için boş dizi ataması yapıyoruz.
+          const secenekler = quiz.secenekler || [];
+          if (secenekler.length !== 5) {
             console.warn(`Soru ${index + 1}: tam 5 şık olmalı.`);
           }
 
@@ -30,7 +37,7 @@ async function loadQuizzes() {
           <div class="quiz-question" data-quiz-index="${index}">
             <p><strong>${index + 1}.</strong> ${escapeHtml(quiz.soru)}</p>
             <div class="quiz-options">
-              ${quiz.secenekler
+              ${secenekler
                 .map(
                   (option, optionIndex) =>
                     `<button type="button" data-option="${optionIndex}">${escapeHtml(option)}</button>`
@@ -44,10 +51,9 @@ async function loadQuizzes() {
 
     section.querySelectorAll('.quiz-question').forEach((block) => {
       const quizIndex = Number(block.dataset.quizIndex);
-      const quiz = data.quizzes[quizIndex];
+      const quiz = quizzesArray[quizIndex];
       
-      // Doğru cevabın indeksini JSON'daki "cevap" metninden otomatik buluyoruz
-      const correctIndex = quiz.secenekler.indexOf(quiz.cevap);
+      const correctIndex = (quiz.secenekler || []).indexOf(quiz.cevap);
 
       block.querySelectorAll('button').forEach((button) => {
         button.addEventListener('click', () => {
@@ -61,7 +67,6 @@ async function loadQuizzes() {
             else if (idx === chosen) btn.classList.add('wrong');
           });
 
-          // Doğru cevap verildiğinde laleleri gülümseten animasyon fonksiyonu
           if (isCorrect && typeof window.makeTulipsSmile === 'function') {
             window.makeTulipsSmile();
           }
@@ -69,8 +74,8 @@ async function loadQuizzes() {
       });
     });
   } catch (err) {
-    section.innerHTML = '<h2>Testler</h2><p>Testler yüklenemedi.</p>';
-    console.error(err);
+    section.innerHTML = '<h2>Testler</h2><p>Testler yüklenemedi. Lütfen konsolu kontrol edin.</p>';
+    console.error("Test yükleme hatası:", err);
   }
 }
 
