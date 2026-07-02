@@ -21,7 +21,7 @@ body {
   background: #FFF9C4;
   color: var(--text-main);
   min-height: 100vh;
-  padding-top: 4rem;
+  padding-top: 4.5rem;
   position: relative;
   overflow-x: hidden;
 }
@@ -91,12 +91,21 @@ body {
   left: 0;
   right: 0;
   z-index: 100;
-  padding: 0.75rem 1rem;
+  padding: 0.6rem 1rem;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
   background: rgba(255, 255, 255, 0.92);
   border-bottom: 1px solid var(--purple-soft);
   backdrop-filter: blur(8px);
+}
+
+.site-logo {
+  height: clamp(28px, 8vw, 44px);
+  width: auto;
+  display: block;
+  flex-shrink: 0;
 }
 
 .countdown-box {
