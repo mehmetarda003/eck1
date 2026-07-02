@@ -1,17 +1,26 @@
 body { background-color: #FFF9C4; margin: 0; padding: 0; font-family: sans-serif; color: #333; }
 
+/* Kuğu İkonu Tasarımı */
 .kugu-konteyner {
-    position: fixed; top: 25px; left: 25px; width: 35px; height: 35px;
-    z-index: 999999; animation: kuguSalinimi 4s infinite ease-in-out;
-    cursor: pointer; filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.4));
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    height: auto;
+    z-index: 999999;
+    animation: kuguSalinimi 4s infinite ease-in-out;
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.2));
 }
-.kugu-konteyner img { width: 100%; height: 100%; object-fit: contain; }
+
+.kugu-konteyner img { width: 100%; height: auto; }
 
 @keyframes kuguSalinimi {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-5px); }
 }
 
+/* Genel Tasarım */
 .ana-konteyner { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
 .baslik { text-align: center; color: #512da8; }
 .hosgeldin-karti { background: white; padding: 25px; border-radius: 12px; margin-bottom: 40px; border-left: 5px solid #512da8; }
