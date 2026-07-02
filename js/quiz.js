@@ -8,7 +8,8 @@ async function loadQuizzes() {
   const section = document.getElementById('quiz-section');
 
   try {
-    const res = await fetch('data/content.json');
+    // GitHub Pages'te sorun çıkmaması için dosya yolunun başına nokta ekledik
+    const res = await fetch('./data/content.json');
     const data = await res.json();
 
     if (!data.quizzes || data.quizzes.length === 0) {
@@ -20,15 +21,16 @@ async function loadQuizzes() {
       '<h2>Testler</h2>' +
       data.quizzes
         .map((quiz, index) => {
-          if (!quiz.options || quiz.options.length !== 5) {
+          // JSON'daki "secenekler" anahtarını kullanıyoruz
+          if (!quiz.secenekler || quiz.secenekler.length !== 5) {
             console.warn(`Soru ${index + 1}: tam 5 şık olmalı.`);
           }
 
           return `
           <div class="quiz-question" data-quiz-index="${index}">
-            <p><strong>${index + 1}.</strong> ${escapeHtml(quiz.question)}</p>
+            <p><strong>${index + 1}.</strong> ${escapeHtml(quiz.soru)}</p>
             <div class="quiz-options">
-              ${quiz.options
+              ${quiz.secenekler
                 .map(
                   (option, optionIndex) =>
                     `<button type="button" data-option="${optionIndex}">${escapeHtml(option)}</button>`
@@ -43,19 +45,23 @@ async function loadQuizzes() {
     section.querySelectorAll('.quiz-question').forEach((block) => {
       const quizIndex = Number(block.dataset.quizIndex);
       const quiz = data.quizzes[quizIndex];
+      
+      // Doğru cevabın indeksini JSON'daki "cevap" metninden otomatik buluyoruz
+      const correctIndex = quiz.secenekler.indexOf(quiz.cevap);
 
       block.querySelectorAll('button').forEach((button) => {
         button.addEventListener('click', () => {
           const chosen = Number(button.dataset.option);
-          const isCorrect = chosen === quiz.correctIndex;
+          const isCorrect = chosen === correctIndex;
 
           block.querySelectorAll('button').forEach((btn) => {
             btn.disabled = true;
             const idx = Number(btn.dataset.option);
-            if (idx === quiz.correctIndex) btn.classList.add('correct');
+            if (idx === correctIndex) btn.classList.add('correct');
             else if (idx === chosen) btn.classList.add('wrong');
           });
 
+          // Doğru cevap verildiğinde laleleri gülümseten animasyon fonksiyonu
           if (isCorrect && typeof window.makeTulipsSmile === 'function') {
             window.makeTulipsSmile();
           }
