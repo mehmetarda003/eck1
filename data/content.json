@@ -5,7 +5,6 @@
       "body": "Bu ECK — Esra'nın Çalışma Kitabı. Bilgi kartlarını ve testleri buradan çalışabilirsin."
     }
   ],
-  "quizzes": {
   "quizzes": [
     {
       "id": 1,
@@ -709,4 +708,4 @@
     }
   ]
 }
-}
+
