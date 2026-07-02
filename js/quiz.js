@@ -20,14 +20,14 @@ async function loadQuizzes() {
       '<h2>Testler</h2>' +
       data.quizzes
         .map((quiz, index) => {
-          if (!quiz.options || quiz.options.length !== 5) {
+          if (!quiz.seçenekler || quiz.seçenekler.length !== 5) {
             console.warn(`Soru ${index + 1}: tam 5 şık olmalı.`);
           }
 
           return `
-          <div class="quiz-question" data-quiz-index="${index}">
-            <p><strong>${index + 1}.</strong> ${escapeHtml(quiz.question)}</p>
-            <div class="quiz-options">
+          <div class="quiz-soru" data-quiz-index="${index}">
+            <p><strong>${index + 1}.</strong> ${escapeHtml(quiz.soru)}</p>
+            <div class="quiz-seçenekler">
               ${quiz.options
                 .map(
                   (option, optionIndex) =>
@@ -40,7 +40,7 @@ async function loadQuizzes() {
         })
         .join('');
 
-    section.querySelectorAll('.quiz-question').forEach((block) => {
+    section.querySelectorAll('.quiz-soru').forEach((block) => {
       const quizIndex = Number(block.dataset.quizIndex);
       const quiz = data.quizzes[quizIndex];
 
