@@ -1,122 +1,22 @@
-/* Genel Ayarlar ve Arka Plan */
-body {
-    background-color: #FFF9C4; /* Laleleri belli eden sıcak sarı arka plan */
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-}
+body { background-color: #FFF9C4; margin: 0; padding: 0; font-family: sans-serif; color: #333; }
 
-/* 🦢 Kuğu İkonu Tasarımı ve Konumu */
 .kugu-konteyner {
-    position: fixed;
-    top: 25px;
-    left: 25px;
-    width: 65px;
-    height: 65px;
-    z-index: 999999; /* Kuğu hiçbir şeyin altında kalmaz */
-    animation: kuguSalinimi 4s infinite ease-in-out;
-    cursor: pointer;
+    position: fixed; top: 25px; left: 25px; width: 35px; height: 35px;
+    z-index: 999999; animation: kuguSalinimi 4s infinite ease-in-out;
+    cursor: pointer; filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.4));
 }
+.kugu-konteyner img { width: 100%; height: 100%; object-fit: contain; }
 
 @keyframes kuguSalinimi {
     0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
+    50% { transform: translateY(-5px); }
 }
 
-.kugu-konteyner:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
-}
-
-/* Sayfa İçi Konteyner (Ortalama) */
-.ana-konteyner {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px 20px;
-}
-
-/* Başlık */
-.baslik {
-    text-align: center;
-    color: #512da8;
-    font-size: 28px;
-    margin-bottom: 30px;
-}
-
-/* Hoş Geldin Kartı */
-.hosgeldin-karti {
-    background-color: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    margin-bottom: 40px;
-    border-left: 5px solid #512da8;
-}
-
-.hosgeldin-karti h2 {
-    margin-top: 0;
-    color: #512da8;
-    font-size: 20px;
-}
-
-/* Test Alanı ve Soru Kartları */
-#quiz-section h2 {
-    color: #512da8;
-    margin-bottom: 20px;
-}
-
-.quiz-question {
-    background-color: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    margin-bottom: 25px;
-}
-
-.quiz-question p {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #2c3e50;
-}
-
-/* Şık Butonları */
-.quiz-options button {
-    display: block;
-    width: 100%;
-    text-align: left;
-    background-color: #f8f9fa;
-    border: 1px solid #e0e0e0;
-    padding: 12px 15px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    color: #333;
-}
-
-.quiz-options button:hover:not(:disabled) {
-    background-color: #ede7f6;
-    border-color: #512da8;
-}
-
-/* Doğru ve Yanlış Cevap Renkleri */
-.quiz-options button.correct {
-    background-color: #d4edda;
-    border-color: #28a745;
-    color: #155724;
-    font-weight: bold;
-}
-
-.quiz-options button.wrong {
-    background-color: #f8d7da;
-    border-color: #dc3545;
-    color: #721c24;
-}
-
-.quiz-options button:disabled {
-    cursor: not-allowed;
-    opacity: 0.8;
-}
+.ana-konteyner { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+.baslik { text-align: center; color: #512da8; }
+.hosgeldin-karti { background: white; padding: 25px; border-radius: 12px; margin-bottom: 40px; border-left: 5px solid #512da8; }
+.quiz-question { background: white; padding: 20px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.quiz-options button { display: block; width: 100%; text-align: left; background: #f8f9fa; border: 1px solid #ddd; padding: 12px; margin-bottom: 8px; border-radius: 8px; cursor: pointer; }
+.quiz-options button:hover:not(:disabled) { background: #ede7f6; }
+.quiz-options button.correct { background: #d4edda; border-color: #28a745; }
+.quiz-options button.wrong { background: #f8d7da; border-color: #dc3545; }
