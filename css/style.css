@@ -232,3 +232,26 @@ body {
   border-color: var(--wrong);
   color: #991b1b;
 }
+/* Kuğu İkonu Tasarımı ve Konumu */
+.kugu-konteyner {
+    position: fixed; /* Sayfa aşağı kaydırılsa bile hep görünür kalır */
+    top: 25px;       /* Yukarıdan boşluk */
+    left: 25px;      /* Soldan boşluk */
+    width: 60px;     /* Kuğunun büyüklüğü */
+    height: 60px;
+    z-index: 9999;   /* Diğer tüm yazıların/kartların üstünde durmasını sağlar */
+    animation: kuguSalinimi 4s infinite ease-in-out; /* Hafif yüzme animasyonu */
+    cursor: pointer;
+}
+
+/* Kuğu İkonuna Hafif Yüzme Hareketi */
+@keyframes kuguSalinimi {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+}
+
+/* Üzerine gelindiğinde hafifçe büyümesi için */
+.kugu-konteyner:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
