@@ -1,37 +1,40 @@
+/* Arka plan ve Lale Deseni Geri Geldi */
 body { 
     background-color: #FFF9C4; 
-    /* Laleleri arka plana eklemek için görsel yolunu kendi klasörüne göre düzenle */
-    background-image: url('../assets/lale-deseni.png'); 
+    /* Lalelerin dosya yolu. Eğer 'assets' klasöründeyse 'assets/lale.png' yapabilirsin */
+    background-image: url('../assets/lale.png'); 
     background-repeat: repeat; 
+    background-attachment: fixed; /* Arka plan sabit dursun ki daha şık görünsün */
     margin: 0; padding: 0; font-family: sans-serif; color: #333; 
 }
 
-/* Kuğu İkonu (Büyütülmüş ve Konumlandırılmış) */
+/* Kuğu (120px, tam istediğin boyutta) */
 .kugu-konteyner {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    width: 120px; 
-    height: auto;
-    z-index: 999999;
+    position: fixed; top: 20px; left: 20px; width: 120px; z-index: 999999;
     animation: kuguSalinimi 4s infinite ease-in-out;
-    cursor: pointer;
     filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.2));
 }
-.kugu-konteyner img { width: 100%; height: auto; }
+.kugu-konteyner img { width: 100%; }
 
 @keyframes kuguSalinimi {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-5px); }
 }
 
-/* Genel Tasarım */
+/* Sayaç Tasarımı */
+#countdown-timer { 
+    font-size: 22px; font-weight: bold; text-align: center; 
+    color: #512da8; margin-bottom: 25px; 
+    background: rgba(255, 255, 255, 0.6); /* Arka planı hafif beyazlatıp lalelerin üstünde okunmasını kolaylaştırdık */
+    padding: 10px; border-radius: 10px;
+}
+
+/* Kart tasarımları */
 .ana-konteyner { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
 .baslik { text-align: center; color: #512da8; }
 .hosgeldin-karti { background: white; padding: 25px; border-radius: 12px; margin-bottom: 40px; border-left: 5px solid #512da8; }
-
-/* Sayaç ve Test Alanı */
-#countdown-timer { font-size: 20px; font-weight: bold; text-align: center; color: #d32f2f; margin-bottom: 20px; }
 .quiz-question { background: white; padding: 20px; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
 .quiz-options button { display: block; width: 100%; text-align: left; background: #f8f9fa; border: 1px solid #ddd; padding: 12px; margin-bottom: 8px; border-radius: 8px; cursor: pointer; }
 .quiz-options button:hover:not(:disabled) { background: #ede7f6; }
+.quiz-options button.correct { background: #d4edda; border-color: #28a745; }
+.quiz-options button.wrong { background: #f8d7da; border-color: #dc3545; }
