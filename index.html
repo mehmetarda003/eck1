@@ -1,46 +1,36 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ECK — Esranın Çalışma Kitabı</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esra'nın Çalışma Kitabı</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <!-- Sol Üst Güven Simgesi: Kuğu İkonu -->
-<div class="kugu-konteyner" >
-    <svg viewBox="0 0 100 100" class="kugu-ikon" xmlns="http://www.w3.org/2000/svg">
-        <!-- Kuğunun Gövdesi ve Boynu -->
-        <path d="M 30,70 C 10,70 10,90 30,90 L 70,90 C 90,90 90,70 70,70 C 60,70 55,60 55,50 C 55,30 65,20 65,10 C 65,0 50,0 50,10 C 50,20 40,30 40,50 C 40,60 35,70 30,70 Z" fill="white" stroke="#2c3e50" stroke-width="4" stroke-linejoin="round"/>
-        <!-- Kuğunun Gözü -->
-        <circle cx="55" cy="15" r="2.5" fill="#2c3e50"/>
-        <!-- Kuğunun Gagası -->
-        <path d="M 64,12 L 78,16 L 64,20 Z" fill="#e67e22" stroke="#2c3e50" stroke-width="2" stroke-linejoin="round"/>
-    </svg>
-</div>
-  <div id="tulip-garden" class="tulip-garden" aria-hidden="true"></div>
 
-  <header class="countdown-header">
-    <div id="countdown" class="countdown-box">
-      <span class="countdown-label">KPSS'ye</span>
-      <span id="countdown-text">yükleniyor...</span>
+    <div class="kugu-konteyner" >
+        <svg width="100%" height="100%" viewBox="0 0 100 100" class="kugu-ikon" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 30,70 C 10,70 10,90 30,90 L 70,90 C 90,90 90,70 70,70 C 60,70 55,60 55,50 C 55,30 65,20 65,10 C 65,0 50,0 50,10 C 50,20 40,30 40,50 C 40,60 35,70 30,70 Z" fill="white" stroke="#2c3e50" stroke-width="4" stroke-linejoin="round"/>
+            <circle cx="55" cy="15" r="2.5" fill="#2c3e50"/>
+            <path d="M 64,12 L 78,16 L 64,20 Z" fill="#e67e22" stroke="#2c3e50" stroke-width="2" stroke-linejoin="round"/>
+        </svg>
     </div>
-  </header>
 
-  <main class="container">
-    <header class="site-header">
-      <h1>ECK</h1>
-      <p class="site-subtitle">Esranın Çalışma Kitabı</p>
-    </header>
+    <div class="ana-konteyner">
+        <header>
+            <h1 class="baslik">Esra'nın Çalışma Kitabı</h1>
+        </header>
 
-    <section id="cards-section" class="cards-grid"></section>
+        <div class="hosgeldin-karti">
+            <h2>Hoş geldin</h2>
+            <p>Bu ECK — Esra'nın Çalışma Kitabı. Bilgi kartlarını ve testleri buradan çalışabilirsin.</p>
+        </div>
 
-    <section id="quiz-section" class="quiz-area"></section>
-  </main>
+        <section id="quiz-section">
+            </section>
+    </div>
 
-  <script src="js/tulips.js"></script>
-  <script src="js/countdown.js"></script>
-  <script src="js/cards.js"></script>
- <script src="js/quiz.js?v=2"></script>
-</body>
+    <script src="./js/quiz.js?v=3"></script>
+    </body>
 </html>
