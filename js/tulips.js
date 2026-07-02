@@ -80,7 +80,7 @@ function createTulipSvg(id) {
         />
       </g>
 
-      <g class="tulip-face">
+      <g class="tulip-face tulip-face-smile">
         <g class="tulip-eyes-smile">
           <path d="M44 42 Q47 40 50 42" stroke="#7c3aed" stroke-width="1.4" fill="none" stroke-linecap="round"/>
           <path d="M50 42 Q53 40 56 42" stroke="#7c3aed" stroke-width="1.4" fill="none" stroke-linecap="round"/>
@@ -93,6 +93,20 @@ function createTulipSvg(id) {
           fill="none"
           stroke-linecap="round"
         />
+      </g>
+
+      <g class="tulip-face tulip-face-kiss">
+        <g class="tulip-eyes-kiss">
+          <path d="M43 41 Q47 38 50 41" stroke="#7c3aed" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+          <path d="M50 41 Q53 38 57 41" stroke="#7c3aed" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+        </g>
+        <ellipse class="tulip-mouth-kiss" cx="50" cy="51" rx="3.4" ry="2.6" fill="#7c3aed"/>
+        <g class="tulip-kiss-heart">
+          <path
+            d="M60 44 C60 42.3 61.3 41 63 41 C64 41 64.9 41.6 65.3 42.4 C65.7 41.6 66.6 41 67.6 41 C69.3 41 70.6 42.3 70.6 44 C70.6 46.6 67.6 48.8 65.3 50.5 C63 48.8 60 46.6 60 44 Z"
+            fill="#ec4899"
+          />
+        </g>
       </g>
     </svg>
   `;
@@ -117,16 +131,32 @@ function buildTulipGarden() {
 
 function makeTulipsSmile() {
   document.querySelectorAll('.tulip').forEach((tulip) => {
+    tulip.classList.remove('kissing');
     tulip.classList.remove('smiling');
     void tulip.offsetWidth;
     tulip.classList.add('smiling');
 
-    clearTimeout(tulip._smileTimer);
-    tulip._smileTimer = setTimeout(() => {
+    clearTimeout(tulip._faceTimer);
+    tulip._faceTimer = setTimeout(() => {
       tulip.classList.remove('smiling');
+    }, 2800);
+  });
+}
+
+function makeTulipsKiss() {
+  document.querySelectorAll('.tulip').forEach((tulip) => {
+    tulip.classList.remove('smiling');
+    tulip.classList.remove('kissing');
+    void tulip.offsetWidth;
+    tulip.classList.add('kissing');
+
+    clearTimeout(tulip._faceTimer);
+    tulip._faceTimer = setTimeout(() => {
+      tulip.classList.remove('kissing');
     }, 2800);
   });
 }
 
 buildTulipGarden();
 window.makeTulipsSmile = makeTulipsSmile;
+window.makeTulipsKiss = makeTulipsKiss;
