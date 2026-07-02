@@ -1,72 +1,77 @@
-// 1. Sayaç Fonksiyonu
-function startCountdown(deadline) {
-    const timerElement = document.getElementById('countdown-timer');
-    if (!timerElement) return;
-
-    setInterval(() => {
-        const now = new Date().getTime();
-        const target = new Date(deadline).getTime();
-        const distance = target - now;
-
-        if (distance < 0) {
-            timerElement.innerHTML = "⏳ Sınav zamanı geldi!";
-            return;
-        }
-
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        timerElement.innerHTML = `⏳ Sınava Kalan: ${days} gün ${hours} saat`;
-    }, 1000);
+function escapeHtml(text) {
+  if (!text) return '';
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
 }
 
-// 2. Test Yükleme Fonksiyonu
 async function loadQuizzes() {
-    const section = document.getElementById('quiz-section');
-    try {
-        // Dosya yolunu ve önbelleği engellemek için zaman damgasını ekledik
-        const res = await fetch('./data/content.json?t=' + Date.now());
-        const data = await res.json();
-        
-        // JSON yapındaki quizzes dizisine ulaşıyoruz
-        const quizzesArray = data.quizzes || [];
+  const section = document.getElementById('quiz-section');
 
-        if (quizzesArray.length === 0) {
-            section.innerHTML = '<h2>Testler</h2><p>Henüz test eklenmedi.</p>';
-            return;
-        }
+  try {
+    const url = './data/content.json?t=' + Date.now();
+    const res = await fetch(url);
+    const data = await res.json();
 
-        // Testleri HTML'e döküyoruz
-        section.innerHTML = '<h2>Testler</h2>' + quizzesArray.map((quiz, index) => `
-            <div class="quiz-question" data-quiz-index="${index}">
-                <p><strong>${index + 1}.</strong> ${quiz.soru}</p>
-                <div class="quiz-options">
-                    ${(quiz.secenekler || []).map((opt, i) => `<button type="button" data-option="${i}">${opt}</button>`).join('')}
-                </div>
-            </div>`).join('');
-
-        // Tıklama olaylarını bağlıyoruz
-        section.querySelectorAll('.quiz-question').forEach((block) => {
-            const quizIndex = Number(block.dataset.quizIndex);
-            const quiz = quizzesArray[quizIndex];
-            const correctIdx = (quiz.secenekler || []).indexOf(quiz.cevap);
-
-            block.querySelectorAll('button').forEach((btn) => {
-                btn.addEventListener('click', () => {
-                    const chosen = Number(btn.dataset.option);
-                    block.querySelectorAll('button').forEach((b, i) => {
-                        b.disabled = true; // Butonları kilitler
-                        if (i === correctIdx) b.classList.add('correct');
-                        else if (i === chosen) b.classList.add('wrong');
-                    });
-                });
-            });
-        });
-    } catch (err) {
-        console.error("Yükleme hatası:", err);
-        section.innerHTML = '<h2>Testler</h2><p>Veriler yüklenirken bir hata oluştu.</p>';
+    let quizzesArray = data.quizzes;
+    if (quizzesArray && !Array.isArray(quizzesArray) && quizzesArray.quizzes) {
+      quizzesArray = quizzesArray.quizzes;
     }
+
+    if (!quizzesArray || quizzesArray.length === 0) {
+      section.innerHTML = '<h2>Testler</h2><p>Henüz test eklenmedi.</p>';
+      return;
+    }
+
+    section.innerHTML =
+      '<h2>Testler</h2>' +
+      quizzesArray
+        .map((quiz, index) => {
+          const secenekler = quiz.secenekler || [];
+          return `
+          <div class="quiz-question" data-quiz-index="${index}">
+            <p><strong>${index + 1}.</strong> ${escapeHtml(quiz.soru)}</p>
+            <div class="quiz-options">
+              ${secenekler
+                .map(
+                  (option, optionIndex) =>
+                    `<button type="button" data-option="${optionIndex}">${escapeHtml(option)}</button>`
+                )
+                .join('')}
+            </div>
+          </div>
+        `;
+        })
+        .join('');
+
+    section.querySelectorAll('.quiz-question').forEach((block) => {
+      const quizIndex = Number(block.dataset.quizIndex);
+      const quiz = quizzesArray[quizIndex];
+      const correctIndex = (quiz.secenekler || []).indexOf(quiz.cevap);
+
+      block.querySelectorAll('button').forEach((button) => {
+        button.addEventListener('click', () => {
+          const chosen = Number(button.dataset.option);
+          const isCorrect = chosen === correctIndex;
+
+          block.querySelectorAll('button').forEach((btn) => {
+            btn.disabled = true;
+            const idx = Number(btn.dataset.option);
+            if (idx === correctIndex) btn.classList.add('correct');
+            else if (idx === chosen) btn.classList.add('wrong');
+          });
+
+          // Senin orijinal kodundaki lalelerin gülümseme tetikleyicisi
+          if (isCorrect && typeof window.makeTulipsSmile === 'function') {
+            window.makeTulipsSmile();
+          }
+        });
+      });
+    });
+  } catch (err) {
+    section.innerHTML = '<h2>Testler</h2><p>Testler yüklenemedi. Lütfen konsolu kontrol edin.</p>';
+    console.error("Test yükleme hatası:", err);
+  }
 }
 
-// Fonksiyonları çalıştır
-startCountdown("2026-09-06T10:15:00");
 loadQuizzes();
