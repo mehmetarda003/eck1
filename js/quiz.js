@@ -14,7 +14,7 @@ function shuffleArray(arr) {
 }
 
 const TEST_SIZE = 10;
-const TEST_COUNT = 10;
+const TEST_COUNT = 11;
 
 let allQuizzes = [];
 let testGroups = [];
