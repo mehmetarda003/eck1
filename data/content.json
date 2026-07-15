@@ -638,143 +638,143 @@
     },
     {
       "id": 91,
-      "kategori": "Edebiyat, Sanat ve Tarih",
-      "soru": "İlk yarı resmi gazete ve ilk tamamen özel gazete sırasıyla hangileridir?",
-      "secenekler": [ "Takvim-i Vekayi ve Tasvir-i Efkar","Ceride-i Havadis ve Tercüman-ı Ahval", "Tercüman-ı Hakikat ve İkdam", "Hürriyet ve Milliyet", "Sabah ve Vakit"],
-      "cevap": "Ceride-i Havadis ve Tercüman-ı Ahval"
-    },
-    {
-      "id": 92,
-      "kategori": "Edebiyat, Sanat ve Tarih",
-      "soru": "Türk resim sanatının ünlü eseri 'Kaplumbağa Terbiyecisi' tablosunun ressamı kimdir?",
-      "secenekler": [ "Şeker Ahmet Paşa", "İbrahim Çallı", "Fikret Mualla", "Osman Hamdi Bey","Abidin Dino"],
-      "cevap": "Osman Hamdi Bey"
-    },
-    {
-      "id": 93,
-      "kategori": "Edebiyat, Sanat ve Tarih",
-      "soru": "Dünyaca ünlü 'Düşünen Adam' heykelinin tasarımcısı olan Fransız sanatçı kimdir?",
-      "secenekler": [ "Michelangelo", "Leonardo da Vinci","Auguste Rodin", "Donatello", "Picasso"],
-      "cevap": "Auguste Rodin"
-    },
-    {
-      "id": 94,
-      "kategori": "Edebiyat, Sanat ve Tarih",
-      "soru": "Mimar Sinan'ın çıraklık, kalfalık ve ustalık eserleri sırasıyla hangileridir?",
-      "secenekler": [ "Süleymaniye, Selimiye ve Sultanahmet", "Selimiye, Şehzade ve Fatih","Şehzade, Süleymaniye ve Selimiye", "Sultanahmet, Süleymaniye ve Ayasofya", "Fatih, Süleymaniye ve Yeni Cami"],
-      "cevap": "Şehzade, Süleymaniye ve Selimiye"
-    },
-    {
-      "id": 95,
-      "kategori": "Edebiyat, Sanat ve Tarih",
-      "soru": "Araplara Türkçe öğretmek amacıyla yazılan ilk Türk dünyası sözlüğü 'Divanu Lugati't-Türk'ün yazarı kimdir?",
-      "secenekler": [ "Yusuf Has Hacib", "Edip Ahmet Yükneki", "Kaşgarlı Mahmud","Ahmet Yesevi", "Hoca Dehhani"],
-      "cevap": "Kaşgarlı Mahmud"
-    },
-    {
-      "id": 96,
-      "kategori": "Edebiyat, Sanat ve Tarih",
-      "soru": "Türk-İslam tarihinin ilk siyasetnamesi sayılan 'Kutadgu Bilig'in yazarı kimdir?",
-      "secenekler": [ "Kaşgarlı Mahmud", "Edip Ahmet Yükneki","Yusuf Has Hacib", "Ahmet Yesevi", "Nizamülmülk"],
-      "cevap": "Yusuf Has Hacib"
-    },
-    {
-      "id": 97,
-      "kategori": "Edebiyat, Sanat ve Tarih",
-      "soru": "Artuklular döneminde yaşamış, sibernetik ve robotik bilimin kurucusu sayılan İslam bilgini kimdir?",
-      "secenekler": ["El-Cezeri", "İbn-i Sina", "Farabi", "Biruni", "Harezmi"],
-      "cevap": "El-Cezeri"
-    },
-    {
-      "id": 98,
-      "kategori": "Edebiyat, Sanat ve Tarih",
-      "soru": "İskenderiye'de yazdığı 'Elementler' eseriyle matematik tarihine yön veren ve 'Geometrinin Babası' sayılan isim kimdir?",
-      "secenekler": [ "Pisagor", "Arşimet", "Thales","Öklid", "Harezmi"],
-      "cevap": "Öklid"
-    },
-    {
-      "id": 99,
-      "kategori": "Edebiyat, Sanat ve Tarih",
-      "soru": "Avrupa'da 'Avicenna' adıyla bilinen ve 'Tıbbın Kanunu' eserinin yazarı büyük hekim kimdir?",
-      "secenekler": [ "Farabi", "Gazali", "İbn-i Rüşd", "Biruni","İbn-i Sina"],
-      "cevap": "İbn-i Sina"
-    },
-    {
-      "id": 100,
-      "kategori": "Edebiyat, Sanat ve Tarih",
-      "soru": "Gök cisimlerinin hareketleri üzerine çalışmalar yapan ve Batı dünyasında 'Alfraganus' adıyla anılan Türk-İslam astronomu kimdir?",
-      "secenekler": ["Fergani", "Ali Kuşçu", "Uluğ Bey", "Biruni", "Takiyüddin"],
-      "cevap": "Fergani"
-    },
-    {
-      "id": 101,
       "kategori": "Güncel Gelişmeler",
       "soru": "Resmi Gazete'de yayımlanan son düzenlemelere göre, işçi ve memurlar için standart bir gebelikte öngörülen toplam doğum (analık) izni süresi ile işçiler için belirlenen yeni babalık izni süresi sırasıyla aşağıdakilerden hangisinde doğru verilmiştir?",
       "secenekler": ["16 hafta – 5 gün","18 hafta – 10 gün","24 hafta – 5 gün","24 hafta – 10 gün","32 hafta – 15 gün"],
       "cevap": "24 hafta – 10 gün"
     },
     {
-      "id": 102,
+      "id": 92,
       "kategori": "Güncel Gelişmeler",
       "soru": "Amerikan Havacılık ve Uzay Dairesinin (NASA) bilimsel incelemelerde bulunmak için Türkiye'de geleceği konum aşağıdakilerden hangisidir?",
       "secenekler": ["Salda Gölü", "Meke Gölü", "Bafa Gölü", "Acıgöl", "Nemrut Krateri"],
       "cevap": "Salda Gölü"
     },
     {
-      "id": 103,
+      "id": 93,
       "kategori": "Güncel Gelişmeler",
       "soru": "Milli Savunma Bakanlığı (MSB) AR-GE bünyesinde geliştirilen ve ilk kez SAHA 2026 fuarında tanıtımı yapılan; 6000 kilometre menzile ve hipersonik uçuş hızına sahip Türkiye'nin ilk yerli ve milli kıtalararası balistik füzesinin (ICBM) ismi aşağıdakilerden hangisidir?",
       "secenekler": ["Tayfun", "Cenk", "Yıldırımhan", "Bora", "Gezgin"],
       "cevap": "Yıldırımhan"
     },
     {
-      "id": 104,
+      "id": 94,
       "kategori": "Güncel Gelişmeler",
       "soru": "7-8 Temmuz 2026 tarihleri arasında devlet ve hükûmet başkanlarının katılımıyla gerçekleştirilen 36. NATO Liderler Zirvesi'ne ev sahipliği yapan şehir aşağıdakilerden hangisidir?",
       "secenekler": ["Brüksel", "Lahey", "Washington", "Ankara", "İstanbul"],
       "cevap": "Ankara"
     },
     {
-      "id": 105,
+      "id": 95,
       "kategori": "Güncel Gelişmeler",
       "soru": "NATO'nun (North Atlantic Treaty Organization) Türkçe açılımı aşağıdakilerden hangisidir?",
       "secenekler": ["Kuzey Atlantik Ticaret Örgütü", "Kuzey Amerika Antlaşması Örgütü", "Kuzey Atlantik Antlaşması Örgütü", "Ulusal İttifak Antlaşması Örgütü", "Uluslararası Atlantik Güvenlik Örgütü"],
       "cevap": "Kuzey Atlantik Antlaşması Örgütü"
     },
     {
-      "id": 106,
+      "id": 96,
       "kategori": "Güncel Gelişmeler",
       "soru": "Kuzey Atlantik Antlaşması Örgütünün (NATO) genel merkezi aşağıdaki şehirlerin hangisinde bulunmaktadır?",
       "secenekler": ["Washington", "Cenevre", "Paris", "Brüksel", "Londra"],
       "cevap": "Brüksel"
     },
     {
-      "id": 107,
+      "id": 97,
       "kategori": "Güncel Gelişmeler",
       "soru": "2026-2035 yılları arası, Cumhurbaşkanlığı Genelgesi ile Türkiye'de ne yılı (on yılı) olarak ilan edilmiştir?",
       "secenekler": ["Eğitim ve Teknoloji On Yılı", "Aile ve Nüfus On Yılı", "Çevre ve İklim On Yılı", "Sanayi ve Kalkınma On Yılı", "Tarım ve Gıda On Yılı"],
       "cevap": "Aile ve Nüfus On Yılı"
     },
     {
-      "id": 108,
+      "id": 98,
       "kategori": "Güncel Gelişmeler",
       "soru": "Kültür ve Turizm Bakanlığının teklifi ve Uluslararası Türk Kültürü Teşkilatı (TÜRKSOY) Daimî Konseyinin kararıyla, doğumunun 150. yıl dönümü münasebetiyle 2026 yılı aşağıdaki şahsiyetlerden hangisini 'Anma Yılı' olarak ilan edilmiştir?",
       "secenekler": ["Namık Kemal", "Ömer Seyfettin", "Ziya Gökalp", "Mehmet Akif Ersoy", "Yahya Kemal Beyatlı"],
       "cevap": "Ziya Gökalp"
     },
     {
-      "id": 109,
+      "id": 99,
       "kategori": "Güncel Gelişmeler",
       "soru": "Ekim 2024 tarihinde Jens Stoltenberg'in yerine göreve gelen ve günümüzde de görevini sürdüren NATO (Kuzey Atlantik Antlaşması Örgütü) Genel Sekreteri aşağıdakilerden hangisidir?",
       "secenekler": ["Ursula von der Leyen", "António Guterres", "Mark Rutte", "Josep Borrell", "Charles Michel"],
       "cevap": "Mark Rutte"
     },
      {
-      "id": 110,
+      "id": 100,
       "kategori": "Güncel Gelişmeler",
       "soru": "2024 yılında katılım sürecini tamamlayarak ittifakın 32. ve en güncel üyesi olan ülke aşağıdakilerden hangisidir?",
       "secenekler": ["Finlandiya", "Ukrayna", "Karadağ", "İsveç", "Kuzey Makedonya"],
       "cevap": "İsveç"
+    },
+    {
+      "id": 101,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "İlk yarı resmi gazete ve ilk tamamen özel gazete sırasıyla hangileridir?",
+      "secenekler": [ "Takvim-i Vekayi ve Tasvir-i Efkar","Ceride-i Havadis ve Tercüman-ı Ahval", "Tercüman-ı Hakikat ve İkdam", "Hürriyet ve Milliyet", "Sabah ve Vakit"],
+      "cevap": "Ceride-i Havadis ve Tercüman-ı Ahval"
+    },
+    {
+      "id": 102,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Türk resim sanatının ünlü eseri 'Kaplumbağa Terbiyecisi' tablosunun ressamı kimdir?",
+      "secenekler": [ "Şeker Ahmet Paşa", "İbrahim Çallı", "Fikret Mualla", "Osman Hamdi Bey","Abidin Dino"],
+      "cevap": "Osman Hamdi Bey"
+    },
+    {
+      "id": 103,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Dünyaca ünlü 'Düşünen Adam' heykelinin tasarımcısı olan Fransız sanatçı kimdir?",
+      "secenekler": [ "Michelangelo", "Leonardo da Vinci","Auguste Rodin", "Donatello", "Picasso"],
+      "cevap": "Auguste Rodin"
+    },
+    {
+      "id": 104,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Mimar Sinan'ın çıraklık, kalfalık ve ustalık eserleri sırasıyla hangileridir?",
+      "secenekler": [ "Süleymaniye, Selimiye ve Sultanahmet", "Selimiye, Şehzade ve Fatih","Şehzade, Süleymaniye ve Selimiye", "Sultanahmet, Süleymaniye ve Ayasofya", "Fatih, Süleymaniye ve Yeni Cami"],
+      "cevap": "Şehzade, Süleymaniye ve Selimiye"
+    },
+    {
+      "id": 105,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Araplara Türkçe öğretmek amacıyla yazılan ilk Türk dünyası sözlüğü 'Divanu Lugati't-Türk'ün yazarı kimdir?",
+      "secenekler": [ "Yusuf Has Hacib", "Edip Ahmet Yükneki", "Kaşgarlı Mahmud","Ahmet Yesevi", "Hoca Dehhani"],
+      "cevap": "Kaşgarlı Mahmud"
+    },
+    {
+      "id": 106,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Türk-İslam tarihinin ilk siyasetnamesi sayılan 'Kutadgu Bilig'in yazarı kimdir?",
+      "secenekler": [ "Kaşgarlı Mahmud", "Edip Ahmet Yükneki","Yusuf Has Hacib", "Ahmet Yesevi", "Nizamülmülk"],
+      "cevap": "Yusuf Has Hacib"
+    },
+    {
+      "id": 107,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Artuklular döneminde yaşamış, sibernetik ve robotik bilimin kurucusu sayılan İslam bilgini kimdir?",
+      "secenekler": ["El-Cezeri", "İbn-i Sina", "Farabi", "Biruni", "Harezmi"],
+      "cevap": "El-Cezeri"
+    },
+    {
+      "id": 108,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "İskenderiye'de yazdığı 'Elementler' eseriyle matematik tarihine yön veren ve 'Geometrinin Babası' sayılan isim kimdir?",
+      "secenekler": [ "Pisagor", "Arşimet", "Thales","Öklid", "Harezmi"],
+      "cevap": "Öklid"
+    },
+    {
+      "id": 109,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Avrupa'da 'Avicenna' adıyla bilinen ve 'Tıbbın Kanunu' eserinin yazarı büyük hekim kimdir?",
+      "secenekler": [ "Farabi", "Gazali", "İbn-i Rüşd", "Biruni","İbn-i Sina"],
+      "cevap": "İbn-i Sina"
+    },
+    {
+      "id": 110,
+      "kategori": "Edebiyat, Sanat ve Tarih",
+      "soru": "Gök cisimlerinin hareketleri üzerine çalışmalar yapan ve Batı dünyasında 'Alfraganus' adıyla anılan Türk-İslam astronomu kimdir?",
+      "secenekler": ["Fergani", "Ali Kuşçu", "Uluğ Bey", "Biruni", "Takiyüddin"],
+      "cevap": "Fergani"
     }
   ]
 }
